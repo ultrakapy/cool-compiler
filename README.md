@@ -6,7 +6,7 @@ My COOL compiler is ready for world domination, lol. This has been one of the mo
 
 Details are forthcoming.
 
-PA2J -> Lexical Analyzer
-PA3J -> Parser
-PA4J -> Semantic Analyzer
-PA5J -> Code Generator (generates MIPS assembly code)
+PA2J -> Lexical Analyzer<br/>
+PA3J -> Parser<br/>
+PA4J -> Semantic Analyzer<br/>
+PA5J -> Code Generator (generates MIPS assembly code)<br/>
