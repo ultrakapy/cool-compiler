@@ -1,0 +1,6 @@
+1,3c1
+< LONGERROR
+< OBJECTID d
+< LONGERROR
+---
+> STR_CONST "c\nd"

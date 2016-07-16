@@ -1,0 +1,32 @@
+31c31
+<           : Int
+---
+>           : _no_type
+35,36c35,36
+<           : Int
+<         : Int
+---
+>           : _no_type
+>         : _no_type
+42c42
+<           : Int
+---
+>           : _no_type
+46,47c46,47
+<           : Int
+<         : Int
+---
+>           : _no_type
+>         : _no_type
+53c53
+<           : Int
+---
+>           : _no_type
+57,59c57,59
+<           : Int
+<         : Int
+<       : Int
+---
+>           : _no_type
+>         : _no_type
+>       : Object

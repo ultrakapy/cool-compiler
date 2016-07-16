@@ -1,0 +1,5 @@
+#name "./comment_in_string.cl.cool"
+#0 ERROR "EOF in string constant"
+#2 ERROR "\\"
+#4 ERROR "EOF in string constant"
+#4 ERROR "Unterminated string constant"

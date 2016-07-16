@@ -1,0 +1,2 @@
+OBJECTID before_it
+STR_CONST "this string \ndoens't end\n"

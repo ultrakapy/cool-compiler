@@ -1,0 +1,5 @@
+#name "./escapedunprintables.cool"
+#1 STR_CONST "This is a tab:\t"
+#2 STR_CONST "This is a backspace:\b"
+#3 STR_CONST "This is a formfeed:\f"
+#3 ERROR "EOF in string constant"

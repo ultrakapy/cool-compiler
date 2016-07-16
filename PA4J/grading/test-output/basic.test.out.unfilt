@@ -1,0 +1,5 @@
+./basic.test:1: Dispatch to undefined method copy
+./basic.test:1: Dispatch to undefined method copy
+./basic.test:1: Dispatch to undefined method copy
+./basic.test:1: Dispatch to undefined method length
+Compilation halted due to static semantic errors.

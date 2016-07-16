@@ -1,0 +1,9 @@
+3,4c3
+< LONGERROR
+< LONGERROR
+---
+> STR_CONST "This is also not escaped \\\n"
+6c5
+< STR_CONST "\\"
+---
+> LONGERROR

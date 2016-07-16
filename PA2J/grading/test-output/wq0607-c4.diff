@@ -1,0 +1,24 @@
+4,5c4,6
+< STR_CONST "\\"
+< STR_CONST "\"--\""
+---
+> STR_CONST "\\\""
+> LONGERROR
+> STR_CONST "--\""
+11c12,13
+< STR_CONST "--\\"
+---
+> STR_CONST "--\\\"\"\\"
+> STR_CONST "\\\""
+13,15c15
+< STR_CONST "\\"
+< STR_CONST "\\"
+< STR_CONST "\"--\""
+---
+> STR_CONST "--\""
+20,22c20
+< STR_CONST "--\\"
+< LONGERROR
+< STR_CONST "\\"
+---
+> STR_CONST "--\\\"\"\\"

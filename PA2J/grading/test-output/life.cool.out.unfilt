@@ -1,0 +1,643 @@
+#name "./life.cool"
+#51 CLASS
+#53 TYPEID Board
+#54 INHERITS
+#56 TYPEID IO
+#57 '{'
+#61 OBJECTID rows
+#62 ':'
+#64 TYPEID Int
+#64 ';'
+#67 OBJECTID columns
+#68 ':'
+#70 TYPEID Int
+#70 ';'
+#73 OBJECTID board_size
+#74 ':'
+#76 TYPEID Int
+#76 ';'
+#80 OBJECTID size_of_board
+#80 '('
+#81 OBJECTID initial
+#82 ':'
+#84 TYPEID String
+#84 ')'
+#85 ':'
+#87 TYPEID Int
+#88 '{'
+#91 OBJECTID initial
+#91 '.'
+#92 OBJECTID length
+#92 '('
+#92 ')'
+#94 '}'
+#94 ';'
+#98 OBJECTID board_init
+#98 '('
+#99 OBJECTID start
+#100 ':'
+#102 TYPEID String
+#102 ')'
+#103 ':'
+#104 TYPEID SELF_TYPE
+#105 '{'
+#107 '('
+#107 LET
+#109 OBJECTID size
+#110 ':'
+#111 TYPEID Int
+#112 ASSIGN
+#114 OBJECTID size_of_board
+#114 '('
+#115 OBJECTID start
+#115 ')'
+#116 IN
+#118 '{'
+#120 IF
+#122 OBJECTID size
+#123 '='
+#125 INT_CONST 15
+#126 THEN
+#128 '{'
+#131 OBJECTID rows
+#132 ASSIGN
+#134 INT_CONST 3
+#134 ';'
+#137 OBJECTID columns
+#138 ASSIGN
+#140 INT_CONST 5
+#140 ';'
+#143 OBJECTID board_size
+#144 ASSIGN
+#146 OBJECTID size
+#146 ';'
+#148 '}'
+#150 ELSE
+#151 IF
+#153 OBJECTID size
+#154 '='
+#156 INT_CONST 16
+#157 THEN
+#159 '{'
+#162 OBJECTID rows
+#163 ASSIGN
+#165 INT_CONST 4
+#165 ';'
+#168 OBJECTID columns
+#169 ASSIGN
+#171 INT_CONST 4
+#171 ';'
+#174 OBJECTID board_size
+#175 ASSIGN
+#177 OBJECTID size
+#177 ';'
+#179 '}'
+#181 ELSE
+#182 IF
+#184 OBJECTID size
+#185 '='
+#187 INT_CONST 20
+#188 THEN
+#190 '{'
+#193 OBJECTID rows
+#194 ASSIGN
+#196 INT_CONST 4
+#196 ';'
+#199 OBJECTID columns
+#200 ASSIGN
+#202 INT_CONST 5
+#202 ';'
+#205 OBJECTID board_size
+#206 ASSIGN
+#208 OBJECTID size
+#208 ';'
+#210 '}'
+#212 ELSE
+#213 IF
+#215 OBJECTID size
+#216 '='
+#218 INT_CONST 21
+#219 THEN
+#221 '{'
+#224 OBJECTID rows
+#225 ASSIGN
+#227 INT_CONST 3
+#227 ';'
+#230 OBJECTID columns
+#231 ASSIGN
+#233 INT_CONST 7
+#233 ';'
+#236 OBJECTID board_size
+#237 ASSIGN
+#239 OBJECTID size
+#239 ';'
+#241 '}'
+#243 ELSE
+#244 IF
+#246 OBJECTID size
+#247 '='
+#249 INT_CONST 25
+#250 THEN
+#252 '{'
+#255 OBJECTID rows
+#256 ASSIGN
+#258 INT_CONST 5
+#258 ';'
+#261 OBJECTID columns
+#262 ASSIGN
+#264 INT_CONST 5
+#264 ';'
+#267 OBJECTID board_size
+#268 ASSIGN
+#270 OBJECTID size
+#270 ';'
+#272 '}'
+#274 ELSE
+#275 IF
+#277 OBJECTID size
+#278 '='
+#280 INT_CONST 28
+#281 THEN
+#283 '{'
+#286 OBJECTID rows
+#287 ASSIGN
+#289 INT_CONST 7
+#289 ';'
+#292 OBJECTID columns
+#293 ASSIGN
+#295 INT_CONST 4
+#295 ';'
+#298 OBJECTID board_size
+#299 ASSIGN
+#301 OBJECTID size
+#301 ';'
+#303 '}'
+#305 ELSE
+#309 '{'
+#314 OBJECTID rows
+#315 ASSIGN
+#317 INT_CONST 5
+#317 ';'
+#320 OBJECTID columns
+#321 ASSIGN
+#323 INT_CONST 5
+#323 ';'
+#326 OBJECTID board_size
+#327 ASSIGN
+#329 OBJECTID size
+#329 ';'
+#331 '}'
+#333 FI
+#334 FI
+#335 FI
+#336 FI
+#337 FI
+#338 FI
+#338 ';'
+#340 OBJECTID self
+#340 ';'
+#342 '}'
+#344 ')'
+#346 '}'
+#346 ';'
+#346 '}'
+#346 ';'
+#346 CLASS
+#348 TYPEID CellularAutomaton
+#349 INHERITS
+#351 TYPEID Board
+#352 '{'
+#355 OBJECTID population_map
+#356 ':'
+#358 TYPEID String
+#358 ';'
+#362 OBJECTID init
+#362 '('
+#363 OBJECTID map
+#364 ':'
+#366 TYPEID String
+#366 ')'
+#367 ':'
+#368 TYPEID SELF_TYPE
+#369 '{'
+#371 '{'
+#374 OBJECTID population_map
+#375 ASSIGN
+#377 OBJECTID map
+#377 ';'
+#380 OBJECTID board_init
+#380 '('
+#381 OBJECTID map
+#381 ')'
+#381 ';'
+#383 OBJECTID self
+#383 ';'
+#385 '}'
+#387 '}'
+#387 ';'
+#394 OBJECTID print
+#394 '('
+#394 ')'
+#395 ':'
+#396 TYPEID SELF_TYPE
+#397 '{'
+#400 '('
+#400 LET
+#402 OBJECTID i
+#403 ':'
+#405 TYPEID Int
+#406 ASSIGN
+#408 INT_CONST 0
+#409 IN
+#411 '('
+#411 LET
+#413 OBJECTID num
+#414 ':'
+#416 TYPEID Int
+#417 ASSIGN
+#419 OBJECTID board_size
+#420 IN
+#422 '{'
+#425 OBJECTID out_string
+#425 '('
+#426 STR_CONST "\n"
+#426 ')'
+#426 ';'
+#428 WHILE
+#430 OBJECTID i
+#431 '<'
+#433 OBJECTID num
+#434 LOOP
+#436 '{'
+#439 OBJECTID out_string
+#439 '('
+#440 OBJECTID population_map
+#440 '.'
+#441 OBJECTID substr
+#441 '('
+#442 OBJECTID i
+#442 ','
+#443 OBJECTID columns
+#443 ')'
+#443 ')'
+#443 ';'
+#446 OBJECTID out_string
+#446 '('
+#447 STR_CONST "\n"
+#447 ')'
+#447 ';'
+#450 OBJECTID i
+#451 ASSIGN
+#453 OBJECTID i
+#454 '+'
+#456 OBJECTID columns
+#456 ';'
+#458 '}'
+#460 POOL
+#460 ';'
+#463 OBJECTID out_string
+#463 '('
+#464 STR_CONST "\n"
+#464 ')'
+#464 ';'
+#466 OBJECTID self
+#466 ';'
+#468 '}'
+#470 ')'
+#471 ')'
+#473 '}'
+#473 ';'
+#477 OBJECTID num_cells
+#477 '('
+#477 ')'
+#478 ':'
+#480 TYPEID Int
+#481 '{'
+#484 OBJECTID population_map
+#484 '.'
+#485 OBJECTID length
+#485 '('
+#485 ')'
+#487 '}'
+#487 ';'
+#491 OBJECTID cell
+#491 '('
+#492 OBJECTID position
+#493 ':'
+#495 TYPEID Int
+#495 ')'
+#496 ':'
+#498 TYPEID String
+#499 '{'
+#501 IF
+#503 OBJECTID board_size
+#504 '-'
+#506 INT_CONST 1
+#507 '<'
+#509 OBJECTID position
+#510 THEN
+#512 ERROR "EOF in string constant"
+#512 ERROR "EOF in string constant"
+#512 ERROR "EOF in string constant"
+#512 ERROR "EOF in string constant"
+#512 ERROR "EOF in string constant"
+#512 ERROR "EOF in string constant"
+#512 ERROR "EOF in string constant"
+#512 ERROR "EOF in string constant"
+#512 ERROR "EOF in string constant"
+#512 ERROR "EOF in string constant"
+#512 ERROR "EOF in string constant"
+#512 ERROR "EOF in string constant"
+#514 STR_CONST "); \n   out_string("
+#515 ERROR "\\"
+#516 OBJECTID t2
+#516 ':'
+#518 TYPEID A
+#520 OBJECTID slash
+#522 OBJECTID from
+#524 OBJECTID the
+#526 OBJECTID upper
+#528 OBJECTID left
+#530 OBJECTID to
+#532 OBJECTID lower
+#534 OBJECTID right
+#535 ERROR "\\"
+#536 OBJECTID n
+#536 ERROR "EOF in string constant"
+#537 OBJECTID t
+#538 ERROR "\\"
+#539 OBJECTID n
+#541 STR_CONST "); \n   out_string("
+#542 ERROR "\\"
+#543 OBJECTID t4
+#543 ':'
+#545 TYPEID An
+#547 TYPEID X
+#548 ERROR "\\"
+#549 OBJECTID n
+#551 STR_CONST "); \n   out_string("
+#552 ERROR "\\"
+#553 OBJECTID t5
+#553 ':'
+#555 TYPEID A
+#557 OBJECTID greater
+#559 OBJECTID than
+#561 OBJECTID sign
+#563 ERROR "\\"
+#564 OBJECTID n
+#566 STR_CONST "); \n   out_string("
+#567 ERROR "\\"
+#568 OBJECTID t6
+#568 ':'
+#570 TYPEID A
+#572 OBJECTID less
+#574 OBJECTID than
+#576 OBJECTID sign
+#577 ERROR "\\"
+#578 OBJECTID n
+#580 STR_CONST "); \n   out_string("
+#581 ERROR "\\"
+#582 OBJECTID t7
+#582 ':'
+#584 TYPEID Two
+#586 OBJECTID greater
+#588 OBJECTID than
+#590 OBJECTID signs
+#591 ERROR "\\"
+#592 OBJECTID n
+#594 STR_CONST "); \n   out_string("
+#595 ERROR "\\"
+#596 OBJECTID t8
+#596 ':'
+#598 TYPEID Two
+#600 OBJECTID less
+#602 OBJECTID than
+#604 OBJECTID signs
+#605 ERROR "\\"
+#606 OBJECTID n
+#608 STR_CONST "); \n   out_string("
+#609 ERROR "\\"
+#610 OBJECTID t9
+#610 ':'
+#612 TYPEID A
+#614 ERROR "'"
+#615 TYPEID V
+#616 ERROR "'"
+#617 ERROR "\\"
+#618 OBJECTID n
+#620 STR_CONST "); \n   out_string("
+#621 ERROR "\\"
+#622 OBJECTID t10
+#622 ':'
+#624 TYPEID An
+#626 OBJECTID inverse
+#628 ERROR "'"
+#629 TYPEID V
+#630 ERROR "'"
+#631 ERROR "\\"
+#632 OBJECTID n
+#634 STR_CONST "); \n   out_string("
+#635 ERROR "\\"
+#636 OBJECTID t11
+#636 ':'
+#638 TYPEID Numbers
+#640 INT_CONST 9
+#642 OBJECTID and
+#644 INT_CONST 10
+#646 OBJECTID combined
+#647 ERROR "\\"
+#648 OBJECTID n
+#650 STR_CONST "); \n   out_string("
+#651 ERROR "\\"
+#652 OBJECTID t12
+#652 ':'
+#654 TYPEID A
+#656 OBJECTID full
+#658 OBJECTID grid
+#659 ERROR "\\"
+#660 OBJECTID n
+#662 STR_CONST "); \n   out_string("
+#663 ERROR "\\"
+#664 OBJECTID t13
+#664 ':'
+#666 TYPEID A
+#668 ERROR "'"
+#669 TYPEID T
+#670 ERROR "'"
+#671 ERROR "\\"
+#672 OBJECTID n
+#672 ERROR "EOF in string constant"
+#672 ERROR "EOF in string constant"
+#673 ERROR "'"
+#674 ERROR "\\"
+#675 OBJECTID n
+#675 ERROR "EOF in string constant"
+#675 ERROR "EOF in string constant"
+#675 ERROR "EOF in string constant"
+#676 ERROR "'"
+#677 ERROR "\\"
+#678 OBJECTID n
+#678 ERROR "EOF in string constant"
+#678 ERROR "EOF in string constant"
+#678 ERROR "EOF in string constant"
+#678 ERROR "EOF in string constant"
+#678 ERROR "EOF in string constant"
+#681 STR_CONST "\n   else if num = 2 then\n    \t"
+#683 TYPEID X
+#685 TYPEID X
+#687 TYPEID X
+#689 TYPEID X
+#691 TYPEID X
+#695 STR_CONST "\n   else if num = 3 then\n    \t"
+#696 TYPEID X
+#698 TYPEID X
+#700 TYPEID X
+#702 TYPEID X
+#704 TYPEID X
+#707 STR_CONST "\n   else if num = 4 then\n\t"
+#708 TYPEID X
+#710 TYPEID X
+#712 TYPEID X
+#714 TYPEID X
+#716 TYPEID X
+#718 TYPEID X
+#720 TYPEID X
+#722 TYPEID X
+#724 TYPEID X
+#727 STR_CONST "\n   else if num = 5 then\n\t"
+#728 TYPEID X
+#730 TYPEID X
+#732 TYPEID X
+#734 TYPEID X
+#736 TYPEID X
+#740 STR_CONST "\n   else if num = 6 then\n\t"
+#742 TYPEID X
+#744 TYPEID X
+#746 TYPEID X
+#748 TYPEID X
+#750 TYPEID X
+#753 STR_CONST "\n   else if num = 7 then\n\t"
+#754 TYPEID X
+#756 TYPEID X
+#758 TYPEID X
+#760 TYPEID XX
+#762 TYPEID X
+#766 STR_CONST "\n   else if num = 8 then\n\t"
+#768 TYPEID X
+#770 TYPEID XX
+#772 TYPEID X
+#774 TYPEID X
+#776 TYPEID X
+#780 STR_CONST "\n   else if num = 9 then\n\t"
+#781 TYPEID X
+#783 TYPEID X
+#785 TYPEID X
+#787 TYPEID X
+#789 TYPEID X
+#790 ERROR "EOF in string constant"
+#790 ERROR "EOF in string constant"
+#790 ERROR "EOF in string constant"
+#790 ERROR "EOF in string constant"
+#790 ERROR "EOF in string constant"
+#793 STR_CONST "\n   else\n\t"
+#794 ERROR "EOF in string constant"
+#796 ERROR "\\"
+#797 OBJECTID n
+#797 ERROR "EOF in string constant"
+#798 STR_CONST "\n"
+#798 ')'
+#798 ';'
+#800 IF
+#802 OBJECTID ans
+#803 '='
+#804 ERROR "EOF in string constant"
+#804 ERROR "EOF in string constant"
+#806 ERROR "\\"
+#807 OBJECTID n
+#807 ERROR "EOF in string constant"
+#807 ERROR "EOF in string constant"
+#808 STR_CONST "Welcome to the Game of Life.\n"
+#808 ')'
+#808 ';'
+#811 OBJECTID out_string
+#811 '('
+#812 STR_CONST "There are many initial states to choose from. \n"
+#812 ')'
+#812 ';'
+#814 WHILE
+#816 OBJECTID prompt2
+#816 '('
+#816 ')'
+#817 LOOP
+#819 '{'
+#822 OBJECTID continue
+#823 ASSIGN
+#824 BOOL_CONST true
+#824 ';'
+#827 OBJECTID choice
+#828 ASSIGN
+#830 OBJECTID option
+#830 '('
+#830 ')'
+#830 ';'
+#833 OBJECTID cells
+#834 ASSIGN
+#835 '('
+#835 NEW
+#837 TYPEID CellularAutomaton
+#837 ')'
+#837 '.'
+#838 OBJECTID init
+#838 '('
+#839 OBJECTID choice
+#839 ')'
+#839 ';'
+#842 OBJECTID cells
+#842 '.'
+#843 OBJECTID print
+#843 '('
+#843 ')'
+#843 ';'
+#845 WHILE
+#847 OBJECTID continue
+#848 LOOP
+#850 IF
+#852 OBJECTID prompt
+#852 '('
+#852 ')'
+#853 THEN
+#855 '{'
+#858 OBJECTID cells
+#858 '.'
+#859 OBJECTID evolve
+#859 '('
+#859 ')'
+#859 ';'
+#862 OBJECTID cells
+#862 '.'
+#863 OBJECTID print
+#863 '('
+#863 ')'
+#863 ';'
+#865 '}'
+#867 ELSE
+#870 OBJECTID continue
+#871 ASSIGN
+#872 BOOL_CONST false
+#874 FI
+#876 POOL
+#876 ';'
+#878 '}'
+#880 POOL
+#880 ';'
+#882 OBJECTID self
+#882 ';'
+#884 '}'
+#885 ')'
+#886 ')'
+#886 ';'
+#887 '}'
+#889 '}'
+#889 ';'
+#889 '}'
+#889 ';'

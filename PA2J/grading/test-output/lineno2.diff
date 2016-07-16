@@ -1,0 +1,8 @@
+1,3c1,3
+< #5 ERROR "!"
+< #6 OBJECTID fjdk
+< #7 STR_CONST ""
+---
+> #8 ERROR "!"
+> #9 OBJECTID fjdk
+> #10 STR_CONST ""

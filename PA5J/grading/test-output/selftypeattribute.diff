@@ -1,0 +1,8 @@
+6,7c6,9
+< 2
+< COOL program successfully executed
+---
+> 00
+> Exception occurred at PC=0x100105fc
+>   Bad address in text read: 0x100105fc
+>   Exception 6  [Bad address in text read]  Execution aborted

@@ -1,0 +1,4 @@
+#name "./stringcomment.cool"
+#0 ERROR "EOF in string constant"
+#1 STR_CONST "not a string"
+#4 STR_CONST "(* not a comment *)"

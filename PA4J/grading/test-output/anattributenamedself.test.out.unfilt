@@ -1,0 +1,7 @@
+./anattributenamedself.test:1: 'self' cannot be the name of an attribute.
+java.lang.NullPointerException
+	at java.util.Hashtable.get(Hashtable.java:351)
+	at SymbolTable.lookup(SymbolTable.java:110)
+	at programc.typeCheck(cool-tree.java:728)
+	at programc.semant(cool-tree.java:343)
+	at Semant.main(Semant.java:36)

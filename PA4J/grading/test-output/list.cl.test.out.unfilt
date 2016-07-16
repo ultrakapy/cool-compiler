@@ -1,0 +1,6 @@
+java.lang.NullPointerException
+	at InheritanceGraph.findClass(ClassTable.java:52)
+	at ClassTable.leastUpperBound(ClassTable.java:348)
+	at programc.typeCheck(cool-tree.java:849)
+	at programc.semant(cool-tree.java:457)
+	at Semant.main(Semant.java:36)

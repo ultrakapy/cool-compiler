@@ -1,0 +1,156 @@
+CLASS
+TYPEID Main
+INHERITS
+TYPEID IO
+'{'
+OBJECTID main
+'('
+')'
+':'
+TYPEID SELF_TYPE
+'{'
+'('
+LET
+OBJECTID c
+':'
+TYPEID Complex
+ASSIGN
+'('
+NEW
+TYPEID Complex
+')'
+'.'
+OBJECTID init
+'('
+INT_CONST 1
+','
+INT_CONST 1
+')'
+IN
+'{'
+IF
+OBJECTID c
+'.'
+OBJECTID reflect_X
+'('
+')'
+'='
+OBJECTID c
+'.'
+OBJECTID reflect_0
+'('
+')'
+THEN
+OBJECTID out_string
+'('
+STR_CONST "=)\n"
+')'
+ELSE
+OBJECTID out_string
+'('
+STR_CONST "=(\n"
+')'
+FI
+';'
+IF
+OBJECTID c
+'.'
+OBJECTID reflect_X
+'('
+')'
+'.'
+OBJECTID reflect_Y
+'('
+')'
+'.'
+OBJECTID equal
+'('
+OBJECTID c
+'.'
+OBJECTID reflect_0
+'('
+')'
+')'
+THEN
+OBJECTID out_string
+'('
+STR_CONST "=)\n"
+')'
+ELSE
+OBJECTID out_string
+'('
+STR_CONST "=(\n"
+')'
+FI
+';'
+'}'
+')'
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID Complex
+INHERITS
+TYPEID IO
+'{'
+OBJECTID x
+':'
+TYPEID Int
+';'
+OBJECTID y
+':'
+TYPEID Int
+';'
+OBJECTID init
+'('
+OBJECTID a
+':'
+TYPEID Int
+','
+OBJECTID b
+':'
+TYPEID Int
+')'
+':'
+TYPEID Complex
+'{'
+'{'
+OBJECTID x
+'='
+OBJECTID a
+';'
+OBJECTID y
+'='
+OBJECTID b
+';'
+OBJECTID self
+';'
+'}'
+'}'
+';'
+OBJECTID print
+'('
+')'
+':'
+TYPEID Object
+'{'
+IF
+OBJECTID y
+'='
+INT_CONST 0
+THEN
+OBJECTID out_int
+'('
+OBJECTID x
+')'
+ELSE
+OBJECTID out_int
+'('
+OBJECTID x
+')'
+'.'
+OBJECTID out_string
+'('
+LONGERROR
+LONGERROR

@@ -1,0 +1,9 @@
+1,2c1,5
+< filename:line
+< Compilation halted due to static semantic errors.
+---
+> java.lang.NullPointerException
+> 	at programc.typeCheck(cool-tree.java:476)
+> 	at programc.typeCheck(cool-tree.java:693)
+> 	at programc.semant(cool-tree.java:422)
+> 	at Semant.main(Semant.java:36)

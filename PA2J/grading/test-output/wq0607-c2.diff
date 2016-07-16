@@ -1,0 +1,6 @@
+1a2,4
+> STR_CONST "*)"
+> STR_CONST "*)"
+> LONGERROR
+3d5
+< STR_CONST "*)(*"

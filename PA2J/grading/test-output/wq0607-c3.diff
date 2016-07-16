@@ -1,0 +1,17 @@
+1,2c1
+< STR_CONST "\\"
+< STR_CONST "\"\""
+---
+> STR_CONST "\\\""
+3a3
+> STR_CONST "\""
+5d4
+< STR_CONST ""
+7c6
+< STR_CONST "\\"
+---
+> STR_CONST ""
+9c8
+< STR_CONST "\\"
+---
+> STR_CONST "\\\"\"\\"

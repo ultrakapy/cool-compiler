@@ -1,0 +1,11 @@
+6,7c6,12
+< good
+< COOL program successfully executed
+---
+> spim: (parser) syntax error on line 436 of file shadow-attr-formal.cl.s
+> 	  move	$a0 var
+> 	           ^
+> The following symbols are undefined:
+> Main.main
+> Instruction references undefined symbol at 0x00400038
+> [0x00400038]	0x0c000000  jal 0x00000000 [Main.main]      ; 373: jal	Main.main		# Invoke main method

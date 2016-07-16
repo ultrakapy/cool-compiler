@@ -1,0 +1,78 @@
+#name "./pathologicalstrings.cool"
+#14 ERROR "Unterminated string constant"
+#14 '.'
+#14 '.'
+#14 '.'
+#14 '.'
+#14 '.'
+#14 '.'
+#14 '.'
+#15 INT_CONST 10
+#15 '.'
+#15 '.'
+#15 '.'
+#15 '.'
+#15 '.'
+#15 '.'
+#15 '.'
+#15 '.'
+#16 INT_CONST 20
+#16 '.'
+#16 '.'
+#16 '.'
+#16 '.'
+#16 '.'
+#19 ERROR "Unterminated string constant"
+#29 ERROR "Unterminated string constant"
+#29 '.'
+#29 '.'
+#29 '.'
+#29 '.'
+#29 '.'
+#29 '.'
+#29 '.'
+#30 INT_CONST 10
+#30 '.'
+#30 '.'
+#30 '.'
+#30 '.'
+#30 '.'
+#30 '.'
+#30 '.'
+#30 '.'
+#31 INT_CONST 20
+#31 '.'
+#31 '.'
+#31 '.'
+#32 ERROR "\\"
+#33 OBJECTID n
+#36 ERROR "Unterminated string constant"
+#46 ERROR "Unterminated string constant"
+#46 '.'
+#46 '.'
+#46 '.'
+#46 '.'
+#46 '.'
+#46 '.'
+#46 '.'
+#47 INT_CONST 10
+#47 '.'
+#47 '.'
+#47 '.'
+#47 '.'
+#47 '.'
+#47 '.'
+#47 '.'
+#47 '.'
+#48 INT_CONST 20
+#48 '.'
+#48 '.'
+#48 '.'
+#48 '.'
+#49 ERROR "\\"
+#50 OBJECTID n
+#53 ERROR "Unterminated string constant"
+#64 ERROR "Unterminated string constant"
+#67 ERROR "Unterminated string constant"
+#78 ERROR "Unterminated string constant"
+#79 ERROR "Unterminated string constant"

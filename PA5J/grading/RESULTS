@@ -1,0 +1,15 @@
+	-1 (abort)	 Calling abort() method
+	-1 (case-none)	 Case with no matching branch
+	-1 (case-order)	 Simple case expression 
+	-1 (casevoid)	 Attempt to use void for case test expr 
+	-1 (hairyscary)	 hairy-scary program from examples directory
+	-1 (new-self-dispatch)	 Dispatch on a "new"d object
+	-1 (new-self-init)	 Checking evaluation of attribute initialization exprs on a "new"d object
+	-1 (new-st)	 New SELF_TYPE behavior
+	-1 (selftypeattribute)	 Attribute of type SELF_TYPE
+	-1 (shadow-attr-case)	 Case bound variable shadows a same-named attribute
+	-1 (shadow-case-let)	 Let bound variable shadows a same-named case-bound variable
+	-1 (shadow-formal-case)	 Case bound variable shadows a formal parameter
+	-1 (shadow-let-case)	 Case bound variable shadows a let bound variable
+	-1 (typename)	 Object.type_name should return string representation of the dynamic type dispatched
+	-5 (lam-gc)	 Lambda example with garbage collection

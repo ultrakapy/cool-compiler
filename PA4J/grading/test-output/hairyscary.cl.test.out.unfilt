@@ -1,0 +1,5 @@
+./hairyscary.cl.test:1: Duplicate branch Bar in case statement.
+./hairyscary.cl.test:1: Duplicate branch Bar in case statement.
+./hairyscary.cl.test:1: Duplicate branch Foo in case statement.
+./hairyscary.cl.test:1: Duplicate branch Bar in case statement.
+Compilation halted due to static semantic errors.

@@ -1,0 +1,20 @@
+#name "./backslash.cool"
+#1 STR_CONST "0120\\1\\2\t\f\b\nra\bcde\fg"
+#1 ERROR "EOF in string constant"
+#2 OBJECTID this
+#4 OBJECTID is
+#6 OBJECTID still
+#8 OBJECTID inside
+#10 OBJECTID the
+#12 OBJECTID string
+#15 STR_CONST "\n\n"
+#16 TYPEID I
+#17 ERROR "'"
+#18 OBJECTID m
+#20 OBJECTID about
+#22 OBJECTID to
+#24 OBJECTID excape
+#26 OBJECTID a
+#28 OBJECTID newline
+#30 ERROR "\\"
+#30 ERROR "Unterminated string constant"

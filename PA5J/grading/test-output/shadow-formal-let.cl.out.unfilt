@@ -1,0 +1,10 @@
+SPIM Version 6.5 of January 4, 2003
+Copyright 1990-2003 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+See the file README for a full copyright notice.
+Loaded: /usr/class/cs143/cool/lib/trap.handler
+goodException occurred at PC=0x1001031c
+  Bad address in text read: 0x1001031c
+  Exception 6  [Bad address in text read]  Execution aborted
+Stats -- #instructions : 205
+         #reads : 37  #writes 30  #branches 35  #other 103

@@ -1,0 +1,642 @@
+CLASS
+TYPEID Board
+INHERITS
+TYPEID IO
+'{'
+OBJECTID rows
+':'
+TYPEID Int
+';'
+OBJECTID columns
+':'
+TYPEID Int
+';'
+OBJECTID board_size
+':'
+TYPEID Int
+';'
+OBJECTID size_of_board
+'('
+OBJECTID initial
+':'
+TYPEID String
+')'
+':'
+TYPEID Int
+'{'
+OBJECTID initial
+'.'
+OBJECTID length
+'('
+')'
+'}'
+';'
+OBJECTID board_init
+'('
+OBJECTID start
+':'
+TYPEID String
+')'
+':'
+TYPEID SELF_TYPE
+'{'
+'('
+LET
+OBJECTID size
+':'
+TYPEID Int
+ASSIGN
+OBJECTID size_of_board
+'('
+OBJECTID start
+')'
+IN
+'{'
+IF
+OBJECTID size
+'='
+INT_CONST 15
+THEN
+'{'
+OBJECTID rows
+ASSIGN
+INT_CONST 3
+';'
+OBJECTID columns
+ASSIGN
+INT_CONST 5
+';'
+OBJECTID board_size
+ASSIGN
+OBJECTID size
+';'
+'}'
+ELSE
+IF
+OBJECTID size
+'='
+INT_CONST 16
+THEN
+'{'
+OBJECTID rows
+ASSIGN
+INT_CONST 4
+';'
+OBJECTID columns
+ASSIGN
+INT_CONST 4
+';'
+OBJECTID board_size
+ASSIGN
+OBJECTID size
+';'
+'}'
+ELSE
+IF
+OBJECTID size
+'='
+INT_CONST 20
+THEN
+'{'
+OBJECTID rows
+ASSIGN
+INT_CONST 4
+';'
+OBJECTID columns
+ASSIGN
+INT_CONST 5
+';'
+OBJECTID board_size
+ASSIGN
+OBJECTID size
+';'
+'}'
+ELSE
+IF
+OBJECTID size
+'='
+INT_CONST 21
+THEN
+'{'
+OBJECTID rows
+ASSIGN
+INT_CONST 3
+';'
+OBJECTID columns
+ASSIGN
+INT_CONST 7
+';'
+OBJECTID board_size
+ASSIGN
+OBJECTID size
+';'
+'}'
+ELSE
+IF
+OBJECTID size
+'='
+INT_CONST 25
+THEN
+'{'
+OBJECTID rows
+ASSIGN
+INT_CONST 5
+';'
+OBJECTID columns
+ASSIGN
+INT_CONST 5
+';'
+OBJECTID board_size
+ASSIGN
+OBJECTID size
+';'
+'}'
+ELSE
+IF
+OBJECTID size
+'='
+INT_CONST 28
+THEN
+'{'
+OBJECTID rows
+ASSIGN
+INT_CONST 7
+';'
+OBJECTID columns
+ASSIGN
+INT_CONST 4
+';'
+OBJECTID board_size
+ASSIGN
+OBJECTID size
+';'
+'}'
+ELSE
+'{'
+OBJECTID rows
+ASSIGN
+INT_CONST 5
+';'
+OBJECTID columns
+ASSIGN
+INT_CONST 5
+';'
+OBJECTID board_size
+ASSIGN
+OBJECTID size
+';'
+'}'
+FI
+FI
+FI
+FI
+FI
+FI
+';'
+OBJECTID self
+';'
+'}'
+')'
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID CellularAutomaton
+INHERITS
+TYPEID Board
+'{'
+OBJECTID population_map
+':'
+TYPEID String
+';'
+OBJECTID init
+'('
+OBJECTID map
+':'
+TYPEID String
+')'
+':'
+TYPEID SELF_TYPE
+'{'
+'{'
+OBJECTID population_map
+ASSIGN
+OBJECTID map
+';'
+OBJECTID board_init
+'('
+OBJECTID map
+')'
+';'
+OBJECTID self
+';'
+'}'
+'}'
+';'
+OBJECTID print
+'('
+')'
+':'
+TYPEID SELF_TYPE
+'{'
+'('
+LET
+OBJECTID i
+':'
+TYPEID Int
+ASSIGN
+INT_CONST 0
+IN
+'('
+LET
+OBJECTID num
+':'
+TYPEID Int
+ASSIGN
+OBJECTID board_size
+IN
+'{'
+OBJECTID out_string
+'('
+STR_CONST "\n"
+')'
+';'
+WHILE
+OBJECTID i
+'<'
+OBJECTID num
+LOOP
+'{'
+OBJECTID out_string
+'('
+OBJECTID population_map
+'.'
+OBJECTID substr
+'('
+OBJECTID i
+','
+OBJECTID columns
+')'
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "\n"
+')'
+';'
+OBJECTID i
+ASSIGN
+OBJECTID i
+'+'
+OBJECTID columns
+';'
+'}'
+POOL
+';'
+OBJECTID out_string
+'('
+STR_CONST "\n"
+')'
+';'
+OBJECTID self
+';'
+'}'
+')'
+')'
+'}'
+';'
+OBJECTID num_cells
+'('
+')'
+':'
+TYPEID Int
+'{'
+OBJECTID population_map
+'.'
+OBJECTID length
+'('
+')'
+'}'
+';'
+OBJECTID cell
+'('
+OBJECTID position
+':'
+TYPEID Int
+')'
+':'
+TYPEID String
+'{'
+IF
+OBJECTID board_size
+'-'
+INT_CONST 1
+'<'
+OBJECTID position
+THEN
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+STR_CONST "); \n   out_string("
+LONGERROR
+OBJECTID t2
+':'
+TYPEID A
+OBJECTID slash
+OBJECTID from
+OBJECTID the
+OBJECTID upper
+OBJECTID left
+OBJECTID to
+OBJECTID lower
+OBJECTID right
+LONGERROR
+OBJECTID n
+LONGERROR
+OBJECTID t
+LONGERROR
+OBJECTID n
+STR_CONST "); \n   out_string("
+LONGERROR
+OBJECTID t4
+':'
+TYPEID An
+TYPEID X
+LONGERROR
+OBJECTID n
+STR_CONST "); \n   out_string("
+LONGERROR
+OBJECTID t5
+':'
+TYPEID A
+OBJECTID greater
+OBJECTID than
+OBJECTID sign
+LONGERROR
+OBJECTID n
+STR_CONST "); \n   out_string("
+LONGERROR
+OBJECTID t6
+':'
+TYPEID A
+OBJECTID less
+OBJECTID than
+OBJECTID sign
+LONGERROR
+OBJECTID n
+STR_CONST "); \n   out_string("
+LONGERROR
+OBJECTID t7
+':'
+TYPEID Two
+OBJECTID greater
+OBJECTID than
+OBJECTID signs
+LONGERROR
+OBJECTID n
+STR_CONST "); \n   out_string("
+LONGERROR
+OBJECTID t8
+':'
+TYPEID Two
+OBJECTID less
+OBJECTID than
+OBJECTID signs
+LONGERROR
+OBJECTID n
+STR_CONST "); \n   out_string("
+LONGERROR
+OBJECTID t9
+':'
+TYPEID A
+ERROR "'"
+TYPEID V
+ERROR "'"
+LONGERROR
+OBJECTID n
+STR_CONST "); \n   out_string("
+LONGERROR
+OBJECTID t10
+':'
+TYPEID An
+OBJECTID inverse
+ERROR "'"
+TYPEID V
+ERROR "'"
+LONGERROR
+OBJECTID n
+STR_CONST "); \n   out_string("
+LONGERROR
+OBJECTID t11
+':'
+TYPEID Numbers
+INT_CONST 9
+OBJECTID and
+INT_CONST 10
+OBJECTID combined
+LONGERROR
+OBJECTID n
+STR_CONST "); \n   out_string("
+LONGERROR
+OBJECTID t12
+':'
+TYPEID A
+OBJECTID full
+OBJECTID grid
+LONGERROR
+OBJECTID n
+STR_CONST "); \n   out_string("
+LONGERROR
+OBJECTID t13
+':'
+TYPEID A
+ERROR "'"
+TYPEID T
+ERROR "'"
+LONGERROR
+OBJECTID n
+LONGERROR
+LONGERROR
+ERROR "'"
+LONGERROR
+OBJECTID n
+LONGERROR
+LONGERROR
+LONGERROR
+ERROR "'"
+LONGERROR
+OBJECTID n
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+STR_CONST "\n   else if num = 2 then\n    \t"
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+STR_CONST "\n   else if num = 3 then\n    \t"
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+STR_CONST "\n   else if num = 4 then\n\t"
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+STR_CONST "\n   else if num = 5 then\n\t"
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+STR_CONST "\n   else if num = 6 then\n\t"
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+STR_CONST "\n   else if num = 7 then\n\t"
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID XX
+TYPEID X
+STR_CONST "\n   else if num = 8 then\n\t"
+TYPEID X
+TYPEID XX
+TYPEID X
+TYPEID X
+TYPEID X
+STR_CONST "\n   else if num = 9 then\n\t"
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+TYPEID X
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+STR_CONST "\n   else\n\t"
+LONGERROR
+LONGERROR
+OBJECTID n
+LONGERROR
+STR_CONST "\n"
+')'
+';'
+IF
+OBJECTID ans
+'='
+LONGERROR
+LONGERROR
+LONGERROR
+OBJECTID n
+LONGERROR
+LONGERROR
+STR_CONST "Welcome to the Game of Life.\n"
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "There are many initial states to choose from. \n"
+')'
+';'
+WHILE
+OBJECTID prompt2
+'('
+')'
+LOOP
+'{'
+OBJECTID continue
+ASSIGN
+BOOL_CONST true
+';'
+OBJECTID choice
+ASSIGN
+OBJECTID option
+'('
+')'
+';'
+OBJECTID cells
+ASSIGN
+'('
+NEW
+TYPEID CellularAutomaton
+')'
+'.'
+OBJECTID init
+'('
+OBJECTID choice
+')'
+';'
+OBJECTID cells
+'.'
+OBJECTID print
+'('
+')'
+';'
+WHILE
+OBJECTID continue
+LOOP
+IF
+OBJECTID prompt
+'('
+')'
+THEN
+'{'
+OBJECTID cells
+'.'
+OBJECTID evolve
+'('
+')'
+';'
+OBJECTID cells
+'.'
+OBJECTID print
+'('
+')'
+';'
+'}'
+ELSE
+OBJECTID continue
+ASSIGN
+BOOL_CONST false
+FI
+POOL
+';'
+'}'
+POOL
+';'
+OBJECTID self
+';'
+'}'
+')'
+')'
+';'
+'}'
+'}'
+';'
+'}'
+';'

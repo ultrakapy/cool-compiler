@@ -1,0 +1,7 @@
+8,11c8
+< b2: Bool
+< b1: Bool
+< b2: Bool
+< COOL program successfully executed
+---
+> b2: Memory address out of bounds

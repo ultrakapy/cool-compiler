@@ -1,0 +1,4 @@
+1c1
+< filename:line
+---
+> Error: e2 should be an Int

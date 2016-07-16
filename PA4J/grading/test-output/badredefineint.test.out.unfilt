@@ -1,0 +1,24 @@
+#1
+_program
+  #1
+  _class
+    Main
+    Object
+    "./badredefineint.test"
+    (
+    #1
+    _method
+      main
+      Int
+      #1
+      _int
+        0
+      : _no_type
+    )
+  #1
+  _class
+    Int
+    Object
+    "./badredefineint.test"
+    (
+    )

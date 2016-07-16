@@ -1,0 +1,9 @@
+9,12c9,11
+< old: 0.  new: 1
+< old: 1.  new: 2
+< old: 2.  new: 29
+< COOL program successfully executed
+---
+> Exception occurred at PC=0x10010548
+>   Bad address in text read: 0x10010548
+>   Exception 6  [Bad address in text read]  Execution aborted

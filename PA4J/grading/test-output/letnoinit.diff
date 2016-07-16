@@ -1,0 +1,8 @@
+25,27c25,27
+<           : Int
+<         : Int
+<       : Int
+---
+>           : _no_type
+>         : _no_type
+>       : Object

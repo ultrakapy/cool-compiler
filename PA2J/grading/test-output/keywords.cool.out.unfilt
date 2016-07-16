@@ -1,0 +1,20 @@
+#name "./keywords.cool"
+#0 CASE
+#0 CLASS
+#0 ELSE
+#1 OBJECTID eSaC
+#1 BOOL_CONST false
+#1 BOOL_CONST true
+#1 FI
+#1 IF
+#1 IN
+#2 OBJECTID iNHerITs
+#3 TYPEID IsvoiD
+#4 OBJECTID lEt
+#5 TYPEID LOOp
+#5 NEW
+#5 NOT
+#5 OF
+#6 TYPEID PoOl
+#7 TYPEID ThEn
+#8 OBJECTID whIle

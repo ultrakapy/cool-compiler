@@ -1,0 +1,56 @@
+#1
+_program
+  #1
+  _class
+    Main
+    Object
+    "./badmethodcallsitself.test"
+    (
+    #1
+    _method
+      main
+      Int
+      #1
+      _int
+        0
+      : Int
+    )
+  #1
+  _class
+    A
+    Object
+    "./badmethodcallsitself.test"
+    (
+    #1
+    _method
+      f
+      #1
+      _formal
+        a
+        Int
+      Object
+      #1
+      _dispatch
+        #1
+        _object
+          self
+        : _no_type
+        f
+        (
+        #1
+        _dispatch
+          #1
+          _object
+            self
+          : _no_type
+          f
+          (
+          #1
+          _int
+            0
+          : _no_type
+          )
+        : _no_type
+        )
+      : _no_type
+    )

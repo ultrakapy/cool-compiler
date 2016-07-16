@@ -1,0 +1,10 @@
+	-1 (backslash2)	 more backslashes in strings
+	-1 (book_list)	 sample program
+	-1 (lineno2)	 line number test 2
+	-1 (longstring_escapedbackslashes)	 long strings with escaped characters
+	-1 (pathologicalstrings)	 some pathological strings
+	-1 (sort_list)	 sample program
+	-1 (stringwithescapes)	 a long string with escaped characters
+	-1 (wq0607-c2)	 sequences of block comments and strings
+	-1 (wq0607-c3)	 sequence of quotes and backslashes
+	-1 (wq0607-c4)	 sequence of quotes, backslashes, and double-dash comment symbols

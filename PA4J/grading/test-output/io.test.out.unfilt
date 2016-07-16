@@ -1,0 +1,3 @@
+<basic class>:1: Type Object of assigned expression does not conform to declared type String of identifier y.
+<basic class>:1: Type Object of assigned expression does not conform to declared type Int of identifier x.
+Compilation halted due to static semantic errors.

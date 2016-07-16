@@ -1,0 +1,39 @@
+1,2c1,35
+< filename, line 2: syntax error at or near LOCATION
+< Compilation halted due to lex and syntax errors
+---
+> 
+> _program
+> 
+>   _class
+>     Test
+>     Object
+>     filename
+>     (
+> 
+>     _method
+>       test
+> 
+>       _formal
+>         x
+>         Int
+>       String
+> 
+>       _dispatch
+> 
+>         _object
+>           self
+>         : _no_type
+>         x
+>         (
+> 
+>         _int
+>           4
+>         : _no_type
+> 
+>         _int
+>           3
+>         : _no_type
+>         )
+>       : _no_type
+>     )

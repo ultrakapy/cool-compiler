@@ -1,0 +1,10 @@
+1,2c1,6
+< filename:line
+< Compilation halted due to static semantic errors.
+---
+> java.lang.NullPointerException
+> 	at InheritanceGraph.findClass(ClassTable.java:52)
+> 	at ClassTable.isSubtype(ClassTable.java:329)
+> 	at programc.typeCheck(cool-tree.java:998)
+> 	at programc.semant(cool-tree.java:445)
+> 	at Semant.main(Semant.java:36)

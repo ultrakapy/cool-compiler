@@ -1,0 +1,10 @@
+./classes.test:1: Undeclared identifier a.
+./classes.test:1: Object is not a subtype of Int.
+./classes.test:1: Undeclared identifier a.
+./classes.test:1: Error: e1 should be an Int
+java.lang.NullPointerException
+	at java.util.Hashtable.get(Hashtable.java:351)
+	at SymbolTable.lookup(SymbolTable.java:110)
+	at programc.typeCheck(cool-tree.java:1058)
+	at programc.semant(cool-tree.java:490)
+	at Semant.main(Semant.java:36)

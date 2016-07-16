@@ -1,0 +1,10 @@
+6,10c6,8
+< base
+< base
+< base
+< derived
+< COOL program successfully executed
+---
+> Exception occurred at PC=0x004005f0
+>   Unaligned address in inst/data fetch: 0x0000000b
+>   Exception 4  [Unaligned address in inst/data fetch]  Execution aborted

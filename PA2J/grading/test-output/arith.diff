@@ -1,0 +1,1496 @@
+511,681c511,513
+< STR_CONST "0"
+< THEN
+< INT_CONST 0
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "1"
+< THEN
+< INT_CONST 1
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "2"
+< THEN
+< INT_CONST 2
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "3"
+< THEN
+< INT_CONST 3
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "4"
+< THEN
+< INT_CONST 4
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "5"
+< THEN
+< INT_CONST 5
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "6"
+< THEN
+< INT_CONST 6
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "7"
+< THEN
+< INT_CONST 7
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "8"
+< THEN
+< INT_CONST 8
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "9"
+< THEN
+< INT_CONST 9
+< ELSE
+< '{'
+< OBJECTID abort
+< '('
+< ')'
+< ';'
+< INT_CONST 0
+< ';'
+< '}'
+< FI
+< FI
+< FI
+< FI
+< FI
+< FI
+< FI
+< FI
+< FI
+< FI
+< '}'
+< ';'
+< OBJECTID i2c
+< '('
+< OBJECTID i
+< ':'
+< TYPEID Int
+< ')'
+< ':'
+< TYPEID String
+< '{'
+< IF
+< OBJECTID i
+< '='
+< INT_CONST 0
+< THEN
+< STR_CONST "0"
+< ELSE
+< IF
+< OBJECTID i
+< '='
+< INT_CONST 1
+< THEN
+< STR_CONST "1"
+< ELSE
+< IF
+< OBJECTID i
+< '='
+< INT_CONST 2
+< THEN
+< STR_CONST "2"
+< ELSE
+< IF
+< OBJECTID i
+< '='
+< INT_CONST 3
+< THEN
+< STR_CONST "3"
+< ELSE
+< IF
+< OBJECTID i
+< '='
+< INT_CONST 4
+< THEN
+< STR_CONST "4"
+< ELSE
+< IF
+< OBJECTID i
+< '='
+< INT_CONST 5
+< THEN
+< STR_CONST "5"
+< ELSE
+< IF
+< OBJECTID i
+< '='
+< INT_CONST 6
+< THEN
+< STR_CONST "6"
+< ELSE
+< IF
+< OBJECTID i
+< '='
+< INT_CONST 7
+< THEN
+< STR_CONST "7"
+< ELSE
+< IF
+< OBJECTID i
+< '='
+< INT_CONST 8
+< THEN
+< STR_CONST "8"
+< ELSE
+< IF
+< OBJECTID i
+< '='
+< INT_CONST 9
+< THEN
+< STR_CONST "9"
+< ELSE
+< '{'
+< OBJECTID abort
+< '('
+< ')'
+< ';'
+---
+> LONGERROR
+> LONGERROR
+> LONGERROR
+727,746c559,560
+< STR_CONST "-"
+< THEN
+< '~'
+< OBJECTID a2i_aux
+< '('
+< OBJECTID s
+< '.'
+< OBJECTID substr
+< '('
+< INT_CONST 1
+< ','
+< OBJECTID s
+< '.'
+< OBJECTID length
+< '('
+< ')'
+< '-'
+< INT_CONST 1
+< ')'
+< ')'
+---
+> LONGERROR
+> STR_CONST ""
+748,751d561
+< IF
+< OBJECTID s
+< '.'
+< OBJECTID substr
+753,760c563,572
+< INT_CONST 0
+< ','
+< INT_CONST 1
+< ')'
+< '='
+< STR_CONST "+"
+< THEN
+< OBJECTID a2i_aux
+---
+> LET
+> OBJECTID next
+> ':'
+> TYPEID Int
+> ASSIGN
+> OBJECTID i
+> '/'
+> INT_CONST 10
+> IN
+> OBJECTID i2a_aux
+762c574,575
+< OBJECTID s
+---
+> OBJECTID next
+> ')'
+764c577
+< OBJECTID substr
+---
+> OBJECTID concat
+766,770c579
+< INT_CONST 1
+< ','
+< OBJECTID s
+< '.'
+< OBJECTID length
+---
+> OBJECTID i2c
+772c581
+< ')'
+---
+> OBJECTID i
+774c583,585
+< INT_CONST 1
+---
+> OBJECTID next
+> '*'
+> INT_CONST 10
+777,780d587
+< ELSE
+< OBJECTID a2i_aux
+< '('
+< OBJECTID s
+783,784d589
+< FI
+< FI
+787,789c592,599
+< OBJECTID a2i_aux
+< '('
+< OBJECTID s
+---
+> '}'
+> ';'
+> CLASS
+> TYPEID Main
+> INHERITS
+> TYPEID IO
+> '{'
+> OBJECTID char
+792c602,603
+< ')'
+---
+> ';'
+> OBJECTID avar
+794,798c605,607
+< TYPEID Int
+< '{'
+< '('
+< LET
+< OBJECTID int
+---
+> TYPEID A
+> ';'
+> OBJECTID a_var
+800,807c609,611
+< TYPEID Int
+< ASSIGN
+< INT_CONST 0
+< IN
+< '{'
+< '('
+< LET
+< OBJECTID j
+---
+> TYPEID A
+> ';'
+> OBJECTID flag
+809c613
+< TYPEID Int
+---
+> TYPEID Bool
+811,813c615,617
+< OBJECTID s
+< '.'
+< OBJECTID length
+---
+> BOOL_CONST true
+> ';'
+> OBJECTID menu
+816,819d619
+< IN
+< '('
+< LET
+< OBJECTID i
+821,829c621
+< TYPEID Int
+< ASSIGN
+< INT_CONST 0
+< IN
+< WHILE
+< OBJECTID i
+< '<'
+< OBJECTID j
+< LOOP
+---
+> TYPEID String
+831,1566c623,624
+< OBJECTID int
+< ASSIGN
+< OBJECTID int
+< '*'
+< INT_CONST 10
+< '+'
+< OBJECTID c2i
+< '('
+< OBJECTID s
+< '.'
+< OBJECTID substr
+< '('
+< OBJECTID i
+< ','
+< INT_CONST 1
+< ')'
+< ')'
+< ';'
+< OBJECTID i
+< ASSIGN
+< OBJECTID i
+< '+'
+< INT_CONST 1
+< ';'
+< '}'
+< POOL
+< ')'
+< ')'
+< ';'
+< OBJECTID int
+< ';'
+< '}'
+< ')'
+< '}'
+< ';'
+< OBJECTID i2a
+< '('
+< OBJECTID i
+< ':'
+< TYPEID Int
+< ')'
+< ':'
+< TYPEID String
+< '{'
+< IF
+< OBJECTID i
+< '='
+< INT_CONST 0
+< THEN
+< STR_CONST "0"
+< ELSE
+< IF
+< INT_CONST 0
+< '<'
+< OBJECTID i
+< THEN
+< OBJECTID i2a_aux
+< '('
+< OBJECTID i
+< ')'
+< ELSE
+< STR_CONST "-"
+< '.'
+< OBJECTID concat
+< '('
+< OBJECTID i2a_aux
+< '('
+< OBJECTID i
+< '*'
+< '~'
+< INT_CONST 1
+< ')'
+< ')'
+< FI
+< FI
+< '}'
+< ';'
+< OBJECTID i2a_aux
+< '('
+< OBJECTID i
+< ':'
+< TYPEID Int
+< ')'
+< ':'
+< TYPEID String
+< '{'
+< IF
+< OBJECTID i
+< '='
+< INT_CONST 0
+< THEN
+< STR_CONST ""
+< ELSE
+< '('
+< LET
+< OBJECTID next
+< ':'
+< TYPEID Int
+< ASSIGN
+< OBJECTID i
+< '/'
+< INT_CONST 10
+< IN
+< OBJECTID i2a_aux
+< '('
+< OBJECTID next
+< ')'
+< '.'
+< OBJECTID concat
+< '('
+< OBJECTID i2c
+< '('
+< OBJECTID i
+< '-'
+< OBJECTID next
+< '*'
+< INT_CONST 10
+< ')'
+< ')'
+< ')'
+< FI
+< '}'
+< ';'
+< '}'
+< ';'
+< CLASS
+< TYPEID Main
+< INHERITS
+< TYPEID IO
+< '{'
+< OBJECTID char
+< ':'
+< TYPEID String
+< ';'
+< OBJECTID avar
+< ':'
+< TYPEID A
+< ';'
+< OBJECTID a_var
+< ':'
+< TYPEID A
+< ';'
+< OBJECTID flag
+< ':'
+< TYPEID Bool
+< ASSIGN
+< BOOL_CONST true
+< ';'
+< OBJECTID menu
+< '('
+< ')'
+< ':'
+< TYPEID String
+< '{'
+< '{'
+< OBJECTID out_string
+< '('
+< STR_CONST "\n\tTo add a number to "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "...enter a:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo negate "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "...enter b:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo find the difference between "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "and another number...enter c:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo find the factorial of "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "...enter d:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo square "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "...enter e:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo cube "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "...enter f:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo find out if "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "is a multiple of 3...enter g:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo divide "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "by 8...enter h:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo get a new number...enter j:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo quit...enter q:\n\n"
+< ')'
+< ';'
+< OBJECTID in_string
+< '('
+< ')'
+< ';'
+< '}'
+< '}'
+< ';'
+< OBJECTID prompt
+< '('
+< ')'
+< ':'
+< TYPEID String
+< '{'
+< '{'
+< OBJECTID out_string
+< '('
+< STR_CONST "\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "Please enter a number...  "
+< ')'
+< ';'
+< OBJECTID in_string
+< '('
+< ')'
+< ';'
+< '}'
+< '}'
+< ';'
+< OBJECTID get_int
+< '('
+< ')'
+< ':'
+< TYPEID Int
+< '{'
+< '{'
+< '('
+< LET
+< OBJECTID z
+< ':'
+< TYPEID A2I
+< ASSIGN
+< NEW
+< TYPEID A2I
+< IN
+< '('
+< LET
+< OBJECTID s
+< ':'
+< TYPEID String
+< ASSIGN
+< OBJECTID prompt
+< '('
+< ')'
+< IN
+< OBJECTID z
+< '.'
+< OBJECTID a2i
+< '('
+< OBJECTID s
+< ')'
+< ')'
+< ')'
+< ';'
+< '}'
+< '}'
+< ';'
+< OBJECTID is_even
+< '('
+< OBJECTID num
+< ':'
+< TYPEID Int
+< ')'
+< ':'
+< TYPEID Bool
+< '{'
+< '('
+< LET
+< OBJECTID x
+< ':'
+< TYPEID Int
+< ASSIGN
+< OBJECTID num
+< IN
+< IF
+< OBJECTID x
+< '<'
+< INT_CONST 0
+< THEN
+< OBJECTID is_even
+< '('
+< '~'
+< OBJECTID x
+< ')'
+< ELSE
+< IF
+< INT_CONST 0
+< '='
+< OBJECTID x
+< THEN
+< BOOL_CONST true
+< ELSE
+< IF
+< INT_CONST 1
+< '='
+< OBJECTID x
+< THEN
+< BOOL_CONST false
+< ELSE
+< OBJECTID is_even
+< '('
+< OBJECTID x
+< '-'
+< INT_CONST 2
+< ')'
+< FI
+< FI
+< FI
+< ')'
+< '}'
+< ';'
+< OBJECTID class_type
+< '('
+< OBJECTID var
+< ':'
+< TYPEID A
+< ')'
+< ':'
+< TYPEID SELF_TYPE
+< '{'
+< CASE
+< OBJECTID var
+< OF
+< OBJECTID a
+< ':'
+< TYPEID A
+< DARROW
+< OBJECTID out_string
+< '('
+< STR_CONST "Class type is now A\n"
+< ')'
+< ';'
+< OBJECTID b
+< ':'
+< TYPEID B
+< DARROW
+< OBJECTID out_string
+< '('
+< STR_CONST "Class type is now B\n"
+< ')'
+< ';'
+< OBJECTID c
+< ':'
+< TYPEID C
+< DARROW
+< OBJECTID out_string
+< '('
+< STR_CONST "Class type is now C\n"
+< ')'
+< ';'
+< OBJECTID d
+< ':'
+< TYPEID D
+< DARROW
+< OBJECTID out_string
+< '('
+< STR_CONST "Class type is now D\n"
+< ')'
+< ';'
+< OBJECTID e
+< ':'
+< TYPEID E
+< DARROW
+< OBJECTID out_string
+< '('
+< STR_CONST "Class type is now E\n"
+< ')'
+< ';'
+< OBJECTID o
+< ':'
+< TYPEID Object
+< DARROW
+< OBJECTID out_string
+< '('
+< STR_CONST "Oooops\n"
+< ')'
+< ';'
+< ESAC
+< '}'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID var
+< ':'
+< TYPEID A
+< ')'
+< ':'
+< TYPEID SELF_TYPE
+< '{'
+< '('
+< LET
+< OBJECTID z
+< ':'
+< TYPEID A2I
+< ASSIGN
+< NEW
+< TYPEID A2I
+< IN
+< '{'
+< OBJECTID out_string
+< '('
+< OBJECTID z
+< '.'
+< OBJECTID i2a
+< '('
+< OBJECTID var
+< '.'
+< OBJECTID value
+< '('
+< ')'
+< ')'
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST " "
+< ')'
+< ';'
+< '}'
+< ')'
+< '}'
+< ';'
+< OBJECTID main
+< '('
+< ')'
+< ':'
+< TYPEID Object
+< '{'
+< '{'
+< OBJECTID avar
+< ASSIGN
+< '('
+< NEW
+< TYPEID A
+< ')'
+< ';'
+< WHILE
+< OBJECTID flag
+< LOOP
+< '{'
+< OBJECTID out_string
+< '('
+< STR_CONST "number "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< IF
+< OBJECTID is_even
+< '('
+< OBJECTID avar
+< '.'
+< OBJECTID value
+< '('
+< ')'
+< ')'
+< THEN
+< OBJECTID out_string
+< '('
+< STR_CONST "is even!\n"
+< ')'
+< ELSE
+< OBJECTID out_string
+< '('
+< STR_CONST "is odd!\n"
+< ')'
+< FI
+< ';'
+< OBJECTID class_type
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID char
+< ASSIGN
+< OBJECTID menu
+< '('
+< ')'
+< ';'
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "a"
+< THEN
+< '{'
+< OBJECTID a_var
+< ASSIGN
+< '('
+< NEW
+< TYPEID A
+< ')'
+< '.'
+< OBJECTID set_var
+< '('
+< OBJECTID get_int
+< '('
+< ')'
+< ')'
+< ';'
+< OBJECTID avar
+< ASSIGN
+< '('
+< NEW
+< TYPEID B
+< ')'
+< '.'
+< OBJECTID method2
+< '('
+< OBJECTID avar
+< '.'
+< OBJECTID value
+< '('
+< ')'
+< ','
+< OBJECTID a_var
+< '.'
+< OBJECTID value
+< '('
+< ')'
+< ')'
+< ';'
+< '}'
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "b"
+< THEN
+< CASE
+< OBJECTID avar
+< OF
+< OBJECTID c
+< ':'
+< TYPEID C
+< DARROW
+< OBJECTID avar
+< ASSIGN
+< OBJECTID c
+< '.'
+< OBJECTID method6
+< '('
+< OBJECTID c
+< '.'
+< OBJECTID value
+< '('
+< ')'
+< ')'
+< ';'
+< OBJECTID a
+< ':'
+< TYPEID A
+< DARROW
+< OBJECTID avar
+< ASSIGN
+< OBJECTID a
+< '.'
+< OBJECTID method3
+< '('
+< OBJECTID a
+< '.'
+< OBJECTID value
+< '('
+< ')'
+< ')'
+< ';'
+< OBJECTID o
+< ':'
+< TYPEID Object
+< DARROW
+< '{'
+< OBJECTID out_string
+< '('
+< STR_CONST "Oooops\n"
+< ')'
+< ';'
+< OBJECTID abort
+< '('
+< ')'
+< ';'
+< INT_CONST 0
+< ';'
+< '}'
+< ';'
+< ESAC
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "c"
+< THEN
+< '{'
+< OBJECTID a_var
+< ASSIGN
+< '('
+< NEW
+< TYPEID A
+< ')'
+< '.'
+< OBJECTID set_var
+< '('
+< OBJECTID get_int
+< '('
+< ')'
+< ')'
+< ';'
+< OBJECTID avar
+< ASSIGN
+< '('
+< NEW
+< TYPEID D
+< ')'
+< '.'
+< OBJECTID method4
+< '('
+< OBJECTID avar
+< '.'
+< OBJECTID value
+< '('
+< ')'
+< ','
+< OBJECTID a_var
+< '.'
+< OBJECTID value
+< '('
+< ')'
+< ')'
+< ';'
+< '}'
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "d"
+< THEN
+< OBJECTID avar
+< ASSIGN
+---
+> '{'
+> OBJECTID out_string
+1567a626,666
+> LONGERROR
+> ':'
+> LONGERROR
+> OBJECTID n
+> LONGERROR
+> LONGERROR
+> ':'
+> LONGERROR
+> OBJECTID n
+> LONGERROR
+> ':'
+> LONGERROR
+> OBJECTID n
+> LONGERROR
+> ':'
+> LONGERROR
+> OBJECTID n
+> LONGERROR
+> LONGERROR
+> ':'
+> LONGERROR
+> OBJECTID n
+> LONGERROR
+> LONGERROR
+> ':'
+> LONGERROR
+> OBJECTID n
+> LONGERROR
+> ':'
+> LONGERROR
+> OBJECTID n
+> LONGERROR
+> LONGERROR
+> ':'
+> LONGERROR
+> OBJECTID n
+> STR_CONST ");\n\t out_string("
+> LONGERROR
+> OBJECTID tTo
+> OBJECTID get
+> OBJECTID a
+1569,1572c668
+< TYPEID C
+< ')'
+< '@'
+< TYPEID A
+---
+> OBJECTID number
+1574,1576d669
+< OBJECTID method5
+< '('
+< OBJECTID avar
+1578,1595d670
+< OBJECTID value
+< '('
+< ')'
+< ')'
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "e"
+< THEN
+< OBJECTID avar
+< ASSIGN
+< '('
+< NEW
+< TYPEID C
+< ')'
+< '@'
+< TYPEID B
+1597,1599c672,680
+< OBJECTID method5
+< '('
+< OBJECTID avar
+---
+> OBJECTID enter
+> OBJECTID j
+> ':'
+> LONGERROR
+> OBJECTID n
+> STR_CONST ");\n\t out_string("
+> LONGERROR
+> OBJECTID tTo
+> OBJECTID quit
+1601,1618d681
+< OBJECTID value
+< '('
+< ')'
+< ')'
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "f"
+< THEN
+< OBJECTID avar
+< ASSIGN
+< '('
+< NEW
+< TYPEID C
+< ')'
+< '@'
+< TYPEID C
+1620,1622d682
+< OBJECTID method5
+< '('
+< OBJECTID avar
+1624,1637c684,709
+< OBJECTID value
+< '('
+< ')'
+< ')'
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "g"
+< THEN
+< IF
+< '('
+< '('
+< NEW
+---
+> OBJECTID enter
+> OBJECTID q
+> ':'
+> LONGERROR
+> OBJECTID n
+> LONGERROR
+> OBJECTID n
+> LONGERROR
+> LONGERROR
+> STR_CONST ");\n         in_string();\n      }\n   };\n\n   get_int() : Int {\n      {\n\t (let z : A2I <- new A2I in\n\t    (let s : String <- prompt() in\n\t       z.a2i(s)\n\t    )\n         );\n      }\n   };\n\n   is_even(num : Int) : Bool {\n      (let x : Int <- num in\n            if x < 0 then is_even(~x) else\n            if 0 = x then true else\n\t    if 1 = x then false else\n\t          is_even(x - 2)\n\t    fi fi fi\n      )\n   };\n\n   class_type(var : A) : SELF_TYPE {\n      case var of\n\t a : A => out_string("
+> TYPEID Class
+> OBJECTID type
+> OBJECTID is
+> OBJECTID now
+> TYPEID A
+> LONGERROR
+> OBJECTID n
+> LONGERROR
+> TYPEID B
+> LONGERROR
+> OBJECTID n
+> LONGERROR
+> TYPEID C
+> LONGERROR
+> OBJECTID n
+> LONGERROR
+1639,1703c711,713
+< ')'
+< '.'
+< OBJECTID method7
+< '('
+< OBJECTID avar
+< '.'
+< OBJECTID value
+< '('
+< ')'
+< ')'
+< ')'
+< THEN
+< '{'
+< OBJECTID out_string
+< '('
+< STR_CONST "number "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "is divisible by 3.\n"
+< ')'
+< ';'
+< '}'
+< ELSE
+< '{'
+< OBJECTID out_string
+< '('
+< STR_CONST "number "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "is not divisible by 3.\n"
+< ')'
+< ';'
+< '}'
+< FI
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "h"
+< THEN
+< '('
+< LET
+< OBJECTID x
+< ':'
+< TYPEID A
+< IN
+< '{'
+< OBJECTID x
+< ASSIGN
+< '('
+< NEW
+---
+> LONGERROR
+> OBJECTID n
+> LONGERROR
+1705,1735c715,752
+< ')'
+< '.'
+< OBJECTID method6
+< '('
+< OBJECTID avar
+< '.'
+< OBJECTID value
+< '('
+< ')'
+< ')'
+< ';'
+< '('
+< LET
+< OBJECTID r
+< ':'
+< TYPEID Int
+< ASSIGN
+< '('
+< OBJECTID avar
+< '.'
+< OBJECTID value
+< '('
+< ')'
+< '-'
+< '('
+< OBJECTID x
+< '.'
+< OBJECTID value
+< '('
+< ')'
+< '*'
+---
+> LONGERROR
+> OBJECTID n
+> STR_CONST ");\n\t o : Object => out_string("
+> TYPEID Oooops
+> LONGERROR
+> OBJECTID n
+> STR_CONST ");\n      esac\n   };\n \n   print(var : A) : SELF_TYPE {\n     (let z : A2I <- new A2I in\n\t{\n\t   out_string(z.i2a(var.value()));\n\t   out_string("
+> STR_CONST ");\n\t}\n     )\n   };\n\n   main() : Object {\n      {\n         avar <- (new A);\n         while flag loop\n            {\n\t       -- avar <- (new A).set_var(get_int());\n\t       out_string("
+> OBJECTID number
+> STR_CONST ");\n\t       print(avar);\n\t       if is_even(avar.value()) then\n\t          out_string("
+> OBJECTID is
+> OBJECTID even
+> ERROR "!"
+> LONGERROR
+> OBJECTID n
+> LONGERROR
+> ERROR "!"
+> LONGERROR
+> OBJECTID n
+> LONGERROR
+> STR_CONST ");\n\t\t                  abort(); 0;\n\t\t               };\n                     esac else\n                  if char = "
+> OBJECTID c
+> STR_CONST " then -- diff\n                     {\n                        a_var <- (new A).set_var(get_int());\n\t                avar <- (new D).method4(avar.value(), a_var.value());\n\t             } else\n                  if char = "
+> OBJECTID d
+> STR_CONST " then avar <- (new C)@A.method5(avar.value()) else\n\t\t          -- factorial\n                  if char = "
+> OBJECTID e
+> STR_CONST " then avar <- (new C)@B.method5(avar.value()) else\n\t\t\t  -- square\n                  if char = "
+> OBJECTID f
+> STR_CONST " then avar <- (new C)@C.method5(avar.value()) else\n\t\t\t  -- cube\n                  if char = "
+> OBJECTID g
+> STR_CONST " then -- multiple of 3?\n\t\t      if ((new D).method7(avar.value()))\n\t\t                       then -- avar <- (new A).method1(avar.value())\n\t\t\t {\n\t                    out_string("
+> OBJECTID number
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> STR_CONST ");\n\t\t\t          print(x);\n\t\t\t          out_string("
+> OBJECTID times
+1737,1767c754
+< ')'
+< ')'
+< IN
+< '{'
+< OBJECTID out_string
+< '('
+< STR_CONST "number "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "is equal to "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID x
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "times 8 with a remainder of "
+< ')'
+< ';'
+< '('
+< LET
+---
+> OBJECTID with
+1769,1858c756,763
+< ':'
+< TYPEID A2I
+< ASSIGN
+< NEW
+< TYPEID A2I
+< IN
+< '{'
+< OBJECTID out_string
+< '('
+< OBJECTID a
+< '.'
+< OBJECTID i2a
+< '('
+< OBJECTID r
+< ')'
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\n"
+< ')'
+< ';'
+< '}'
+< ')'
+< ';'
+< '}'
+< ')'
+< ';'
+< OBJECTID avar
+< ASSIGN
+< OBJECTID x
+< ';'
+< '}'
+< ')'
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "j"
+< THEN
+< OBJECTID avar
+< ASSIGN
+< '('
+< NEW
+< TYPEID A
+< ')'
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "q"
+< THEN
+< OBJECTID flag
+< ASSIGN
+< BOOL_CONST false
+< ELSE
+< OBJECTID avar
+< ASSIGN
+< '('
+< NEW
+< TYPEID A
+< ')'
+< '.'
+< OBJECTID method1
+< '('
+< OBJECTID avar
+< '.'
+< OBJECTID value
+< '('
+< ')'
+< ')'
+< FI
+< FI
+< FI
+< FI
+< FI
+< FI
+< FI
+< FI
+< FI
+< FI
+< ';'
+< '}'
+< POOL
+< ';'
+< '}'
+< '}'
+< ';'
+< '}'
+< ';'
+---
+> OBJECTID remainder
+> OF
+> STR_CONST ");\n\t\t\t\t  (let a : A2I <- new A2I in\n\t\t\t\t     {\n\t\t\t                out_string(a.i2a(r));\n\t\t\t                out_string("
+> LONGERROR
+> OBJECTID n
+> STR_CONST ");\n\t\t\t\t     }\n\t\t\t\t  ); -- end let a:\n\t\t\t       }\n                            ); -- end let r:\n\t\t\t    avar <- x;\n\t\t         } \n\t\t      )  -- end let x:\n\t\t      else\n                  if char = "
+> OBJECTID j
+> LONGERROR

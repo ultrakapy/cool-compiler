@@ -1,0 +1,43 @@
+
+_program
+
+  _class
+    Main
+    Object
+    filename
+    (
+
+    _method
+      main
+      Int
+
+      _int
+        0
+      : _no_type
+    )
+
+  _class
+    A
+    Object
+    filename
+    (
+
+    _method
+      foo
+
+      _formal
+        x
+        Object
+      SELF_TYPE
+
+      _object
+        self
+      : _no_type
+    )
+
+  _class
+    B
+    Bool
+    filename
+    (
+    )

@@ -1,0 +1,498 @@
+7a8
+> 4 is prime.
+8a10
+> 6 is prime.
+9a12,14
+> 8 is prime.
+> 9 is prime.
+> 10 is prime.
+10a16
+> 12 is prime.
+11a18,20
+> 14 is prime.
+> 15 is prime.
+> 16 is prime.
+12a22
+> 18 is prime.
+13a24,26
+> 20 is prime.
+> 21 is prime.
+> 22 is prime.
+14a28,32
+> 24 is prime.
+> 25 is prime.
+> 26 is prime.
+> 27 is prime.
+> 28 is prime.
+15a34
+> 30 is prime.
+16a36,40
+> 32 is prime.
+> 33 is prime.
+> 34 is prime.
+> 35 is prime.
+> 36 is prime.
+17a42,44
+> 38 is prime.
+> 39 is prime.
+> 40 is prime.
+18a46
+> 42 is prime.
+19a48,50
+> 44 is prime.
+> 45 is prime.
+> 46 is prime.
+20a52,56
+> 48 is prime.
+> 49 is prime.
+> 50 is prime.
+> 51 is prime.
+> 52 is prime.
+21a58,62
+> 54 is prime.
+> 55 is prime.
+> 56 is prime.
+> 57 is prime.
+> 58 is prime.
+22a64
+> 60 is prime.
+23a66,70
+> 62 is prime.
+> 63 is prime.
+> 64 is prime.
+> 65 is prime.
+> 66 is prime.
+24a72,74
+> 68 is prime.
+> 69 is prime.
+> 70 is prime.
+25a76
+> 72 is prime.
+26a78,82
+> 74 is prime.
+> 75 is prime.
+> 76 is prime.
+> 77 is prime.
+> 78 is prime.
+27a84,86
+> 80 is prime.
+> 81 is prime.
+> 82 is prime.
+28a88,92
+> 84 is prime.
+> 85 is prime.
+> 86 is prime.
+> 87 is prime.
+> 88 is prime.
+29a94,100
+> 90 is prime.
+> 91 is prime.
+> 92 is prime.
+> 93 is prime.
+> 94 is prime.
+> 95 is prime.
+> 96 is prime.
+30a102,104
+> 98 is prime.
+> 99 is prime.
+> 100 is prime.
+31a106
+> 102 is prime.
+32a108,110
+> 104 is prime.
+> 105 is prime.
+> 106 is prime.
+33a112
+> 108 is prime.
+34a114,116
+> 110 is prime.
+> 111 is prime.
+> 112 is prime.
+35a118,130
+> 114 is prime.
+> 115 is prime.
+> 116 is prime.
+> 117 is prime.
+> 118 is prime.
+> 119 is prime.
+> 120 is prime.
+> 121 is prime.
+> 122 is prime.
+> 123 is prime.
+> 124 is prime.
+> 125 is prime.
+> 126 is prime.
+36a132,134
+> 128 is prime.
+> 129 is prime.
+> 130 is prime.
+37a136,140
+> 132 is prime.
+> 133 is prime.
+> 134 is prime.
+> 135 is prime.
+> 136 is prime.
+38a142
+> 138 is prime.
+39a144,152
+> 140 is prime.
+> 141 is prime.
+> 142 is prime.
+> 143 is prime.
+> 144 is prime.
+> 145 is prime.
+> 146 is prime.
+> 147 is prime.
+> 148 is prime.
+40a154
+> 150 is prime.
+41a156,160
+> 152 is prime.
+> 153 is prime.
+> 154 is prime.
+> 155 is prime.
+> 156 is prime.
+42a162,166
+> 158 is prime.
+> 159 is prime.
+> 160 is prime.
+> 161 is prime.
+> 162 is prime.
+43a168,170
+> 164 is prime.
+> 165 is prime.
+> 166 is prime.
+44a172,176
+> 168 is prime.
+> 169 is prime.
+> 170 is prime.
+> 171 is prime.
+> 172 is prime.
+45a178,182
+> 174 is prime.
+> 175 is prime.
+> 176 is prime.
+> 177 is prime.
+> 178 is prime.
+46a184
+> 180 is prime.
+47a186,194
+> 182 is prime.
+> 183 is prime.
+> 184 is prime.
+> 185 is prime.
+> 186 is prime.
+> 187 is prime.
+> 188 is prime.
+> 189 is prime.
+> 190 is prime.
+48a196
+> 192 is prime.
+49a198,200
+> 194 is prime.
+> 195 is prime.
+> 196 is prime.
+50a202
+> 198 is prime.
+51a204,214
+> 200 is prime.
+> 201 is prime.
+> 202 is prime.
+> 203 is prime.
+> 204 is prime.
+> 205 is prime.
+> 206 is prime.
+> 207 is prime.
+> 208 is prime.
+> 209 is prime.
+> 210 is prime.
+52a216,226
+> 212 is prime.
+> 213 is prime.
+> 214 is prime.
+> 215 is prime.
+> 216 is prime.
+> 217 is prime.
+> 218 is prime.
+> 219 is prime.
+> 220 is prime.
+> 221 is prime.
+> 222 is prime.
+53a228,230
+> 224 is prime.
+> 225 is prime.
+> 226 is prime.
+54a232
+> 228 is prime.
+55a234,236
+> 230 is prime.
+> 231 is prime.
+> 232 is prime.
+56a238,242
+> 234 is prime.
+> 235 is prime.
+> 236 is prime.
+> 237 is prime.
+> 238 is prime.
+57a244
+> 240 is prime.
+58a246,254
+> 242 is prime.
+> 243 is prime.
+> 244 is prime.
+> 245 is prime.
+> 246 is prime.
+> 247 is prime.
+> 248 is prime.
+> 249 is prime.
+> 250 is prime.
+59a256,260
+> 252 is prime.
+> 253 is prime.
+> 254 is prime.
+> 255 is prime.
+> 256 is prime.
+60a262,266
+> 258 is prime.
+> 259 is prime.
+> 260 is prime.
+> 261 is prime.
+> 262 is prime.
+61a268,272
+> 264 is prime.
+> 265 is prime.
+> 266 is prime.
+> 267 is prime.
+> 268 is prime.
+62a274
+> 270 is prime.
+63a276,280
+> 272 is prime.
+> 273 is prime.
+> 274 is prime.
+> 275 is prime.
+> 276 is prime.
+64a282,284
+> 278 is prime.
+> 279 is prime.
+> 280 is prime.
+65a286
+> 282 is prime.
+66a288,296
+> 284 is prime.
+> 285 is prime.
+> 286 is prime.
+> 287 is prime.
+> 288 is prime.
+> 289 is prime.
+> 290 is prime.
+> 291 is prime.
+> 292 is prime.
+67a298,310
+> 294 is prime.
+> 295 is prime.
+> 296 is prime.
+> 297 is prime.
+> 298 is prime.
+> 299 is prime.
+> 300 is prime.
+> 301 is prime.
+> 302 is prime.
+> 303 is prime.
+> 304 is prime.
+> 305 is prime.
+> 306 is prime.
+68a312,314
+> 308 is prime.
+> 309 is prime.
+> 310 is prime.
+69a316
+> 312 is prime.
+70a318,320
+> 314 is prime.
+> 315 is prime.
+> 316 is prime.
+71a322,334
+> 318 is prime.
+> 319 is prime.
+> 320 is prime.
+> 321 is prime.
+> 322 is prime.
+> 323 is prime.
+> 324 is prime.
+> 325 is prime.
+> 326 is prime.
+> 327 is prime.
+> 328 is prime.
+> 329 is prime.
+> 330 is prime.
+72a336,340
+> 332 is prime.
+> 333 is prime.
+> 334 is prime.
+> 335 is prime.
+> 336 is prime.
+73a342,350
+> 338 is prime.
+> 339 is prime.
+> 340 is prime.
+> 341 is prime.
+> 342 is prime.
+> 343 is prime.
+> 344 is prime.
+> 345 is prime.
+> 346 is prime.
+74a352
+> 348 is prime.
+75a354,356
+> 350 is prime.
+> 351 is prime.
+> 352 is prime.
+76a358,362
+> 354 is prime.
+> 355 is prime.
+> 356 is prime.
+> 357 is prime.
+> 358 is prime.
+77a364,370
+> 360 is prime.
+> 361 is prime.
+> 362 is prime.
+> 363 is prime.
+> 364 is prime.
+> 365 is prime.
+> 366 is prime.
+78a372,376
+> 368 is prime.
+> 369 is prime.
+> 370 is prime.
+> 371 is prime.
+> 372 is prime.
+79a378,382
+> 374 is prime.
+> 375 is prime.
+> 376 is prime.
+> 377 is prime.
+> 378 is prime.
+80a384,386
+> 380 is prime.
+> 381 is prime.
+> 382 is prime.
+81a388,392
+> 384 is prime.
+> 385 is prime.
+> 386 is prime.
+> 387 is prime.
+> 388 is prime.
+82a394,400
+> 390 is prime.
+> 391 is prime.
+> 392 is prime.
+> 393 is prime.
+> 394 is prime.
+> 395 is prime.
+> 396 is prime.
+83a402,404
+> 398 is prime.
+> 399 is prime.
+> 400 is prime.
+84a406,412
+> 402 is prime.
+> 403 is prime.
+> 404 is prime.
+> 405 is prime.
+> 406 is prime.
+> 407 is prime.
+> 408 is prime.
+85a414,422
+> 410 is prime.
+> 411 is prime.
+> 412 is prime.
+> 413 is prime.
+> 414 is prime.
+> 415 is prime.
+> 416 is prime.
+> 417 is prime.
+> 418 is prime.
+86a424
+> 420 is prime.
+87a426,434
+> 422 is prime.
+> 423 is prime.
+> 424 is prime.
+> 425 is prime.
+> 426 is prime.
+> 427 is prime.
+> 428 is prime.
+> 429 is prime.
+> 430 is prime.
+88a436
+> 432 is prime.
+89a438,442
+> 434 is prime.
+> 435 is prime.
+> 436 is prime.
+> 437 is prime.
+> 438 is prime.
+90a444,446
+> 440 is prime.
+> 441 is prime.
+> 442 is prime.
+91a448,452
+> 444 is prime.
+> 445 is prime.
+> 446 is prime.
+> 447 is prime.
+> 448 is prime.
+92a454,460
+> 450 is prime.
+> 451 is prime.
+> 452 is prime.
+> 453 is prime.
+> 454 is prime.
+> 455 is prime.
+> 456 is prime.
+93a462,464
+> 458 is prime.
+> 459 is prime.
+> 460 is prime.
+94a466
+> 462 is prime.
+95a468,470
+> 464 is prime.
+> 465 is prime.
+> 466 is prime.
+96a472,482
+> 468 is prime.
+> 469 is prime.
+> 470 is prime.
+> 471 is prime.
+> 472 is prime.
+> 473 is prime.
+> 474 is prime.
+> 475 is prime.
+> 476 is prime.
+> 477 is prime.
+> 478 is prime.
+97a484,490
+> 480 is prime.
+> 481 is prime.
+> 482 is prime.
+> 483 is prime.
+> 484 is prime.
+> 485 is prime.
+> 486 is prime.
+98a492,494
+> 488 is prime.
+> 489 is prime.
+> 490 is prime.
+99a496,502
+> 492 is prime.
+> 493 is prime.
+> 494 is prime.
+> 495 is prime.
+> 496 is prime.
+> 497 is prime.
+> 498 is prime.
+100a504
+> 500 is prime.

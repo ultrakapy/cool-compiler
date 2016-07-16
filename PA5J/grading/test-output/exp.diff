@@ -1,0 +1,8 @@
+6,9c6,7
+< 128
+< 729
+< 512
+< COOL program successfully executed
+---
+> Can't expand data segment by 65536 bytes to 1114112 bytes
+> Use -ldata # with # > 1114112

@@ -1,0 +1,481 @@
+#name "./book_list.cl.cool"
+#2 TYPEID Class
+#4 TYPEID Book
+#5 INHERITS
+#7 TYPEID IO
+#8 '{'
+#11 OBJECTID title
+#12 ':'
+#14 TYPEID String
+#14 ';'
+#17 OBJECTID author
+#18 ':'
+#20 TYPEID String
+#20 ';'
+#24 OBJECTID initBook
+#24 '('
+#25 OBJECTID title_p
+#26 ':'
+#28 TYPEID String
+#28 ','
+#30 OBJECTID author_p
+#31 ':'
+#33 TYPEID String
+#33 ')'
+#34 ':'
+#36 TYPEID Book
+#37 '{'
+#39 '{'
+#42 OBJECTID title
+#43 ASSIGN
+#45 OBJECTID title_p
+#45 ';'
+#48 OBJECTID author
+#49 ASSIGN
+#51 OBJECTID author_p
+#51 ';'
+#53 OBJECTID self
+#53 ';'
+#55 '}'
+#57 '}'
+#57 ';'
+#61 OBJECTID print
+#61 '('
+#61 ')'
+#62 ':'
+#64 TYPEID Book
+#65 '{'
+#67 '{'
+#70 OBJECTID out_string
+#70 '('
+#71 STR_CONST "title:      "
+#71 ')'
+#71 '.'
+#72 OBJECTID out_string
+#72 '('
+#73 OBJECTID title
+#73 ')'
+#73 '.'
+#74 OBJECTID out_string
+#74 '('
+#75 STR_CONST "\n"
+#75 ')'
+#75 ';'
+#78 OBJECTID out_string
+#78 '('
+#79 STR_CONST "author:     "
+#79 ')'
+#79 '.'
+#80 OBJECTID out_string
+#80 '('
+#81 OBJECTID author
+#81 ')'
+#81 '.'
+#82 OBJECTID out_string
+#82 '('
+#83 STR_CONST "\n"
+#83 ')'
+#83 ';'
+#85 OBJECTID self
+#85 ';'
+#87 '}'
+#89 '}'
+#89 ';'
+#89 '}'
+#89 ';'
+#90 TYPEID Class
+#92 TYPEID Article
+#93 INHERITS
+#95 TYPEID Book
+#96 '{'
+#99 OBJECTID per_title
+#100 ':'
+#102 TYPEID String
+#102 ';'
+#106 OBJECTID initArticle
+#106 '('
+#107 OBJECTID title_p
+#108 ':'
+#110 TYPEID String
+#110 ','
+#112 OBJECTID author_p
+#113 ':'
+#115 TYPEID String
+#115 ','
+#118 OBJECTID per_title_p
+#119 ':'
+#121 TYPEID String
+#121 ')'
+#122 ':'
+#124 TYPEID Article
+#125 '{'
+#127 '{'
+#130 OBJECTID initBook
+#130 '('
+#131 OBJECTID title_p
+#131 ','
+#133 OBJECTID author_p
+#133 ')'
+#133 ';'
+#136 OBJECTID per_title
+#137 ASSIGN
+#139 OBJECTID per_title_p
+#139 ';'
+#141 OBJECTID self
+#141 ';'
+#143 '}'
+#145 '}'
+#145 ';'
+#149 OBJECTID print
+#149 '('
+#149 ')'
+#150 ':'
+#152 TYPEID Book
+#153 '{'
+#155 '{'
+#157 OBJECTID self
+#157 '@'
+#158 TYPEID Book
+#158 '.'
+#159 OBJECTID print
+#159 '('
+#159 ')'
+#159 ';'
+#162 OBJECTID out_string
+#162 '('
+#163 STR_CONST "periodical:  "
+#163 ')'
+#163 '.'
+#164 OBJECTID out_string
+#164 '('
+#165 OBJECTID per_title
+#165 ')'
+#165 '.'
+#166 OBJECTID out_string
+#166 '('
+#167 STR_CONST "\n"
+#167 ')'
+#167 ';'
+#169 OBJECTID self
+#169 ';'
+#171 '}'
+#173 '}'
+#173 ';'
+#173 '}'
+#173 ';'
+#174 TYPEID Class
+#176 TYPEID BookList
+#177 INHERITS
+#179 TYPEID IO
+#180 '{'
+#191 OBJECTID isNil
+#191 '('
+#191 ')'
+#192 ':'
+#194 TYPEID Bool
+#195 '{'
+#196 '{'
+#198 OBJECTID abort
+#198 '('
+#198 ')'
+#198 ';'
+#199 BOOL_CONST true
+#199 ';'
+#200 '}'
+#201 '}'
+#201 ';'
+#205 OBJECTID cons
+#205 '('
+#206 OBJECTID hd
+#207 ':'
+#209 TYPEID Book
+#209 ')'
+#210 ':'
+#212 TYPEID Cons
+#213 '{'
+#215 '('
+#215 LET
+#217 OBJECTID new_cell
+#218 ':'
+#220 TYPEID Cons
+#221 ASSIGN
+#222 NEW
+#224 TYPEID Cons
+#225 IN
+#228 OBJECTID new_cell
+#228 '.'
+#229 OBJECTID init
+#229 '('
+#230 OBJECTID hd
+#230 ','
+#230 OBJECTID self
+#230 ')'
+#232 ')'
+#234 '}'
+#234 ';'
+#246 OBJECTID car
+#246 '('
+#246 ')'
+#247 ':'
+#249 TYPEID Book
+#250 '{'
+#251 '{'
+#253 OBJECTID abort
+#253 '('
+#253 ')'
+#253 ';'
+#254 NEW
+#256 TYPEID Book
+#256 ';'
+#257 '}'
+#258 '}'
+#258 ';'
+#270 OBJECTID cdr
+#270 '('
+#270 ')'
+#271 ':'
+#273 TYPEID BookList
+#274 '{'
+#275 '{'
+#277 OBJECTID abort
+#277 '('
+#277 ')'
+#277 ';'
+#278 NEW
+#280 TYPEID BookList
+#280 ';'
+#281 '}'
+#282 '}'
+#282 ';'
+#286 OBJECTID print_list
+#286 '('
+#286 ')'
+#287 ':'
+#289 TYPEID Object
+#290 '{'
+#292 OBJECTID abort
+#292 '('
+#292 ')'
+#293 '}'
+#293 ';'
+#293 '}'
+#293 ';'
+#294 TYPEID Class
+#296 TYPEID Cons
+#297 INHERITS
+#299 TYPEID BookList
+#300 '{'
+#303 OBJECTID xcar
+#304 ':'
+#306 TYPEID Book
+#306 ';'
+#311 OBJECTID xcdr
+#312 ':'
+#314 TYPEID BookList
+#314 ';'
+#326 OBJECTID isNil
+#326 '('
+#326 ')'
+#327 ':'
+#329 TYPEID Bool
+#330 '{'
+#331 BOOL_CONST false
+#332 '}'
+#332 ';'
+#336 OBJECTID init
+#336 '('
+#337 OBJECTID hd
+#338 ':'
+#340 TYPEID Book
+#340 ','
+#342 OBJECTID tl
+#343 ':'
+#345 TYPEID BookList
+#345 ')'
+#346 ':'
+#348 TYPEID Cons
+#349 '{'
+#351 '{'
+#354 OBJECTID xcar
+#355 ASSIGN
+#357 OBJECTID hd
+#357 ';'
+#360 OBJECTID xcdr
+#361 ASSIGN
+#363 OBJECTID tl
+#363 ';'
+#365 OBJECTID self
+#365 ';'
+#367 '}'
+#369 '}'
+#369 ';'
+#373 OBJECTID car
+#373 '('
+#373 ')'
+#374 ':'
+#376 TYPEID Book
+#377 '{'
+#379 OBJECTID xcar
+#380 '}'
+#380 ';'
+#384 OBJECTID cdr
+#384 '('
+#384 ')'
+#385 ':'
+#387 TYPEID BookList
+#388 '{'
+#390 OBJECTID xcdr
+#391 '}'
+#391 ';'
+#395 OBJECTID print_list
+#395 '('
+#395 ')'
+#396 ':'
+#398 TYPEID Object
+#399 '{'
+#401 '{'
+#403 CASE
+#405 OBJECTID xcar
+#405 '.'
+#406 OBJECTID print
+#406 '('
+#406 ')'
+#407 OF
+#410 OBJECTID dummy
+#411 ':'
+#413 TYPEID Book
+#414 DARROW
+#416 OBJECTID out_string
+#416 '('
+#417 STR_CONST "- dynamic type was Book -\n"
+#417 ')'
+#417 ';'
+#420 OBJECTID dummy
+#421 ':'
+#423 TYPEID Article
+#424 DARROW
+#426 OBJECTID out_string
+#426 '('
+#427 STR_CONST "- dynamic type was Article -\n"
+#427 ')'
+#427 ';'
+#429 ESAC
+#429 ';'
+#432 OBJECTID xcdr
+#432 '.'
+#433 OBJECTID print_list
+#433 '('
+#433 ')'
+#433 ';'
+#435 '}'
+#437 '}'
+#437 ';'
+#437 '}'
+#437 ';'
+#438 TYPEID Class
+#440 TYPEID Nil
+#441 INHERITS
+#443 TYPEID BookList
+#444 '{'
+#447 OBJECTID isNil
+#447 '('
+#447 ')'
+#448 ':'
+#450 TYPEID Bool
+#451 '{'
+#452 BOOL_CONST true
+#453 '}'
+#453 ';'
+#457 OBJECTID print_list
+#457 '('
+#457 ')'
+#458 ':'
+#460 TYPEID Object
+#461 '{'
+#462 BOOL_CONST true
+#463 '}'
+#463 ';'
+#463 '}'
+#463 ';'
+#464 TYPEID Class
+#466 TYPEID Main
+#467 '{'
+#471 OBJECTID books
+#472 ':'
+#474 TYPEID BookList
+#474 ';'
+#478 OBJECTID main
+#478 '('
+#478 ')'
+#479 ':'
+#481 TYPEID Object
+#482 '{'
+#484 '('
+#484 LET
+#486 OBJECTID a_book
+#487 ':'
+#489 TYPEID Book
+#490 ASSIGN
+#492 '('
+#492 NEW
+#494 TYPEID Book
+#494 ')'
+#494 '.'
+#495 OBJECTID initBook
+#495 '('
+#496 STR_CONST "Compilers, Principles, Techniques, and Tools"
+#496 ','
+#499 STR_CONST "Aho, Sethi, and Ullman"
+#499 ')'
+#501 IN
+#503 '('
+#503 LET
+#505 OBJECTID an_article
+#506 ':'
+#508 TYPEID Article
+#509 ASSIGN
+#511 '('
+#511 NEW
+#513 TYPEID Article
+#513 ')'
+#513 '.'
+#514 OBJECTID initArticle
+#514 '('
+#515 STR_CONST "The Top 100 CD_ROMs"
+#515 ','
+#518 STR_CONST "Ulanoff"
+#518 ','
+#521 STR_CONST "PC Magazine"
+#521 ')'
+#523 IN
+#525 '{'
+#528 OBJECTID books
+#529 ASSIGN
+#530 '('
+#530 NEW
+#532 TYPEID Nil
+#532 ')'
+#532 '.'
+#533 OBJECTID cons
+#533 '('
+#534 OBJECTID a_book
+#534 ')'
+#534 '.'
+#535 OBJECTID cons
+#535 '('
+#536 OBJECTID an_article
+#536 ')'
+#536 ';'
+#539 OBJECTID books
+#539 '.'
+#540 OBJECTID print_list
+#540 '('
+#540 ')'
+#540 ';'
+#542 '}'
+#544 ')'
+#548 ')'
+#552 '}'
+#552 ';'
+#552 '}'
+#552 ';'

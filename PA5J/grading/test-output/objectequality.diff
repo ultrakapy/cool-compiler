@@ -1,0 +1,7 @@
+6c6,9
+< COOL program successfully executed
+---
+> The following symbols are undefined:
+> Main.main
+> Instruction references undefined symbol at 0x00400038
+> [0x00400038]	0x0c000000  jal 0x00000000 [Main.main]      ; 373: jal	Main.main		# Invoke main method

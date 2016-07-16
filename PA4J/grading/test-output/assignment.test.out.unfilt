@@ -1,0 +1,92 @@
+#1
+_program
+  #1
+  _class
+    Main
+    IO
+    "./assignment.test"
+    (
+    #1
+    _attr
+      x
+      Int
+      #1
+      _no_expr
+      : _no_type
+    #1
+    _attr
+      y
+      String
+      #1
+      _no_expr
+      : _no_type
+    #1
+    _attr
+      f
+      Foo
+      #1
+      _no_expr
+      : _no_type
+    #1
+    _method
+      main
+      Object
+      #1
+      _block
+        #1
+        _assign
+          x
+          #1
+          _int
+            3
+          : _no_type
+        : _no_type
+        #1
+        _assign
+          x
+          #1
+          _int
+            5
+          : _no_type
+        : _no_type
+        #1
+        _assign
+          y
+          #1
+          _string
+            "test"
+          : _no_type
+        : _no_type
+        #1
+        _assign
+          f
+          #1
+          _new
+            Foo
+          : _no_type
+        : _no_type
+      : _no_type
+    #1
+    _method
+      foo
+      String
+      #1
+      _string
+        "test"
+      : String
+    )
+  #1
+  _class
+    Foo
+    Object
+    "./assignment.test"
+    (
+    #1
+    _attr
+      x
+      Int
+      #1
+      _int
+        3
+      : _no_type
+    )

@@ -1,0 +1,7 @@
+6,7c6,8
+< 1213435612121343134356
+< COOL program successfully executed
+---
+> Exception occurred at PC=0x004005f0
+>   Unaligned address in inst/data fetch: 0x0000000b
+>   Exception 4  [Unaligned address in inst/data fetch]  Execution aborted

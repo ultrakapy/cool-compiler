@@ -1,0 +1,9 @@
+6,9c6,8
+< Bool
+< 1
+< String
+< COOL program successfully executed
+---
+> Exception occurred at PC=0x1001037c
+>   Bad address in text read: 0x1001037c
+>   Exception 6  [Bad address in text read]  Execution aborted

@@ -1,0 +1,12 @@
+31c31
+<       : Int
+---
+>       : _no_type
+39c39
+<       : String
+---
+>       : _no_type
+47c47
+<       : Bool
+---
+>       : _no_type

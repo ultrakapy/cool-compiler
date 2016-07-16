@@ -1,0 +1,14 @@
+6,12c6,10
+< 1
+< 2
+< 3
+< 4
+< 5
+< 6
+< COOL program successfully executed
+---
+> spim: (parser) syntax error on line 491 of file init-order-self.cl.s
+> 	  move	$a0 value
+> 	           ^
+> The following symbols are undefined:
+> Main.main

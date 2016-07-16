@@ -1,0 +1,20 @@
+27,28c27,28
+<           : Bool
+<         : Bool
+---
+>           : _no_type
+>         : _no_type
+34,35c34,35
+<           : Bool
+<         : Bool
+---
+>           : _no_type
+>         : _no_type
+41,43c41,43
+<           : Bool
+<         : Bool
+<       : Bool
+---
+>           : _no_type
+>         : _no_type
+>       : Object

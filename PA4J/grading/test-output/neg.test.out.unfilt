@@ -1,0 +1,2 @@
+./neg.test:1: Negated expression must be an Int
+Compilation halted due to static semantic errors.

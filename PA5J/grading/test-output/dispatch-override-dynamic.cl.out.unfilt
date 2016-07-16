@@ -1,0 +1,10 @@
+SPIM Version 6.5 of January 4, 2003
+Copyright 1990-2003 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+See the file README for a full copyright notice.
+Loaded: /usr/class/cs143/cool/lib/trap.handler
+Exception occurred at PC=0x004005f0
+  Unaligned address in inst/data fetch: 0x0000000b
+  Exception 4  [Unaligned address in inst/data fetch]  Execution aborted
+Stats -- #instructions : 412
+         #reads : 74  #writes 66  #branches 77  #other 195

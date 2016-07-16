@@ -1,0 +1,101 @@
+#name "./atoi.cool"
+#12 CLASS
+#14 TYPEID A2I
+#15 '{'
+#19 OBJECTID c2i
+#19 '('
+#20 OBJECTID char
+#21 ':'
+#23 TYPEID String
+#23 ')'
+#24 ':'
+#26 TYPEID Int
+#27 '{'
+#29 IF
+#31 OBJECTID char
+#32 '='
+#33 ERROR "EOF in string constant"
+#33 ERROR "EOF in string constant"
+#33 ERROR "EOF in string constant"
+#33 ERROR "EOF in string constant"
+#34 STR_CONST ""
+#34 ';'
+#35 '}'
+#39 FI
+#40 FI
+#41 FI
+#42 FI
+#43 FI
+#44 FI
+#45 FI
+#46 FI
+#47 FI
+#48 FI
+#50 '}'
+#50 ';'
+#60 OBJECTID a2i
+#60 '('
+#61 OBJECTID s
+#62 ':'
+#64 TYPEID String
+#64 ')'
+#65 ':'
+#67 TYPEID Int
+#68 '{'
+#70 IF
+#72 OBJECTID s
+#72 '.'
+#73 OBJECTID length
+#73 '('
+#73 ')'
+#74 '='
+#76 INT_CONST 0
+#77 THEN
+#79 INT_CONST 0
+#80 ELSE
+#82 IF
+#84 OBJECTID s
+#84 '.'
+#85 OBJECTID substr
+#85 '('
+#86 INT_CONST 0
+#86 ','
+#87 INT_CONST 1
+#87 ')'
+#88 '='
+#89 ERROR "EOF in string constant"
+#89 ERROR "EOF in string constant"
+#90 STR_CONST ""
+#91 ELSE
+#93 '('
+#93 LET
+#95 OBJECTID next
+#96 ':'
+#98 TYPEID Int
+#99 ASSIGN
+#101 OBJECTID i
+#102 '/'
+#104 INT_CONST 10
+#105 IN
+#108 OBJECTID i2a_aux
+#108 '('
+#109 OBJECTID next
+#109 ')'
+#109 '.'
+#110 OBJECTID concat
+#110 '('
+#111 OBJECTID i2c
+#111 '('
+#112 OBJECTID i
+#113 '-'
+#115 OBJECTID next
+#116 '*'
+#118 INT_CONST 10
+#118 ')'
+#118 ')'
+#120 ')'
+#122 FI
+#124 '}'
+#124 ';'
+#124 '}'
+#124 ';'

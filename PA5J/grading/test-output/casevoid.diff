@@ -1,0 +1,4 @@
+6c6
+< Match on void in case statement.
+---
+> COOL program successfully executed

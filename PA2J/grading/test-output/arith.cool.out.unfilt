@@ -1,0 +1,764 @@
+#name "./arith.cool"
+#10 CLASS
+#12 TYPEID A
+#13 '{'
+#17 OBJECTID var
+#18 ':'
+#20 TYPEID Int
+#21 ASSIGN
+#23 INT_CONST 0
+#23 ';'
+#27 OBJECTID value
+#27 '('
+#27 ')'
+#28 ':'
+#30 TYPEID Int
+#31 '{'
+#33 OBJECTID var
+#34 '}'
+#34 ';'
+#38 OBJECTID set_var
+#38 '('
+#39 OBJECTID num
+#40 ':'
+#42 TYPEID Int
+#42 ')'
+#43 ':'
+#44 TYPEID SELF_TYPE
+#45 '{'
+#47 '{'
+#50 OBJECTID var
+#51 ASSIGN
+#53 OBJECTID num
+#53 ';'
+#55 OBJECTID self
+#55 ';'
+#57 '}'
+#59 '}'
+#59 ';'
+#63 OBJECTID method1
+#63 '('
+#64 OBJECTID num
+#65 ':'
+#67 TYPEID Int
+#67 ')'
+#68 ':'
+#69 TYPEID SELF_TYPE
+#70 '{'
+#74 OBJECTID self
+#76 '}'
+#76 ';'
+#80 OBJECTID method2
+#80 '('
+#81 OBJECTID num1
+#82 ':'
+#84 TYPEID Int
+#84 ','
+#86 OBJECTID num2
+#87 ':'
+#89 TYPEID Int
+#89 ')'
+#90 ':'
+#92 TYPEID B
+#93 '{'
+#97 '('
+#97 LET
+#99 OBJECTID x
+#100 ':'
+#102 TYPEID Int
+#103 IN
+#105 '{'
+#108 OBJECTID x
+#109 ASSIGN
+#111 OBJECTID num1
+#112 '+'
+#114 OBJECTID num2
+#114 ';'
+#116 '('
+#116 NEW
+#118 TYPEID B
+#118 ')'
+#118 '.'
+#119 OBJECTID set_var
+#119 '('
+#120 OBJECTID x
+#120 ')'
+#120 ';'
+#122 '}'
+#124 ')'
+#126 '}'
+#126 ';'
+#130 OBJECTID method3
+#130 '('
+#131 OBJECTID num
+#132 ':'
+#134 TYPEID Int
+#134 ')'
+#135 ':'
+#137 TYPEID C
+#138 '{'
+#142 '('
+#142 LET
+#144 OBJECTID x
+#145 ':'
+#147 TYPEID Int
+#148 IN
+#150 '{'
+#153 OBJECTID x
+#154 ASSIGN
+#155 '~'
+#156 OBJECTID num
+#156 ';'
+#158 '('
+#158 NEW
+#160 TYPEID C
+#160 ')'
+#160 '.'
+#161 OBJECTID set_var
+#161 '('
+#162 OBJECTID x
+#162 ')'
+#162 ';'
+#164 '}'
+#166 ')'
+#168 '}'
+#168 ';'
+#172 OBJECTID method4
+#172 '('
+#173 OBJECTID num1
+#174 ':'
+#176 TYPEID Int
+#176 ','
+#178 OBJECTID num2
+#179 ':'
+#181 TYPEID Int
+#181 ')'
+#182 ':'
+#184 TYPEID D
+#185 '{'
+#189 IF
+#191 OBJECTID num2
+#192 '<'
+#194 OBJECTID num1
+#195 THEN
+#197 '('
+#197 LET
+#199 OBJECTID x
+#200 ':'
+#202 TYPEID Int
+#203 IN
+#205 '{'
+#208 OBJECTID x
+#209 ASSIGN
+#211 OBJECTID num1
+#212 '-'
+#214 OBJECTID num2
+#214 ';'
+#216 '('
+#216 NEW
+#218 TYPEID D
+#218 ')'
+#218 '.'
+#219 OBJECTID set_var
+#219 '('
+#220 OBJECTID x
+#220 ')'
+#220 ';'
+#222 '}'
+#224 ')'
+#226 ELSE
+#228 '('
+#228 LET
+#230 OBJECTID x
+#231 ':'
+#233 TYPEID Int
+#234 IN
+#236 '{'
+#239 OBJECTID x
+#240 ASSIGN
+#242 OBJECTID num2
+#243 '-'
+#245 OBJECTID num1
+#245 ';'
+#247 '('
+#247 NEW
+#249 TYPEID D
+#249 ')'
+#249 '.'
+#250 OBJECTID set_var
+#250 '('
+#251 OBJECTID x
+#251 ')'
+#251 ';'
+#253 '}'
+#255 ')'
+#257 FI
+#259 '}'
+#259 ';'
+#263 OBJECTID method5
+#263 '('
+#264 OBJECTID num
+#265 ':'
+#267 TYPEID Int
+#267 ')'
+#268 ':'
+#270 TYPEID E
+#271 '{'
+#275 '('
+#275 LET
+#277 OBJECTID x
+#278 ':'
+#280 TYPEID Int
+#281 ASSIGN
+#283 INT_CONST 1
+#284 IN
+#286 '{'
+#288 '('
+#288 LET
+#290 OBJECTID y
+#291 ':'
+#293 TYPEID Int
+#294 ASSIGN
+#296 INT_CONST 1
+#297 IN
+#299 WHILE
+#301 OBJECTID y
+#302 LE
+#304 OBJECTID num
+#305 LOOP
+#307 '{'
+#310 OBJECTID x
+#311 ASSIGN
+#313 OBJECTID x
+#314 '*'
+#316 OBJECTID y
+#316 ';'
+#319 OBJECTID y
+#320 ASSIGN
+#322 OBJECTID y
+#323 '+'
+#325 INT_CONST 1
+#325 ';'
+#327 '}'
+#329 POOL
+#331 ')'
+#331 ';'
+#333 '('
+#333 NEW
+#335 TYPEID E
+#335 ')'
+#335 '.'
+#336 OBJECTID set_var
+#336 '('
+#337 OBJECTID x
+#337 ')'
+#337 ';'
+#339 '}'
+#341 ')'
+#343 '}'
+#343 ';'
+#343 '}'
+#343 ';'
+#343 CLASS
+#345 TYPEID B
+#346 INHERITS
+#348 TYPEID A
+#349 '{'
+#355 OBJECTID method5
+#355 '('
+#356 OBJECTID num
+#357 ':'
+#359 TYPEID Int
+#359 ')'
+#360 ':'
+#362 TYPEID E
+#363 '{'
+#367 '('
+#367 LET
+#369 OBJECTID x
+#370 ':'
+#372 TYPEID Int
+#373 IN
+#375 '{'
+#378 OBJECTID x
+#379 ASSIGN
+#381 OBJECTID num
+#382 '*'
+#384 OBJECTID num
+#384 ';'
+#386 '('
+#386 NEW
+#388 TYPEID E
+#388 ')'
+#388 '.'
+#389 OBJECTID set_var
+#389 '('
+#390 OBJECTID x
+#390 ')'
+#390 ';'
+#392 '}'
+#394 ')'
+#396 '}'
+#396 ';'
+#396 '}'
+#396 ';'
+#396 CLASS
+#398 TYPEID C
+#399 INHERITS
+#401 TYPEID B
+#402 '{'
+#406 OBJECTID method6
+#406 '('
+#407 OBJECTID num
+#408 ':'
+#410 TYPEID Int
+#410 ')'
+#411 ':'
+#413 TYPEID A
+#414 '{'
+#418 '('
+#418 LET
+#420 OBJECTID x
+#421 ':'
+#423 TYPEID Int
+#424 IN
+#426 '{'
+#429 OBJECTID x
+#430 ASSIGN
+#431 '~'
+#432 OBJECTID num
+#432 ';'
+#434 '('
+#434 NEW
+#436 TYPEID A
+#436 ')'
+#436 '.'
+#437 OBJECTID set_var
+#437 '('
+#438 OBJECTID x
+#438 ')'
+#438 ';'
+#440 '}'
+#442 ')'
+#444 '}'
+#444 ';'
+#448 OBJECTID method5
+#448 '('
+#449 OBJECTID num
+#450 ':'
+#452 TYPEID Int
+#452 ')'
+#453 ':'
+#455 TYPEID E
+#456 '{'
+#460 '('
+#460 LET
+#462 OBJECTID x
+#463 ':'
+#465 TYPEID Int
+#466 IN
+#468 '{'
+#471 OBJECTID x
+#472 ASSIGN
+#474 OBJECTID num
+#475 '*'
+#477 OBJECTID num
+#478 '*'
+#480 OBJECTID num
+#480 ';'
+#482 '('
+#482 NEW
+#484 TYPEID E
+#484 ')'
+#484 '.'
+#485 OBJECTID set_var
+#485 '('
+#486 OBJECTID x
+#486 ')'
+#486 ';'
+#488 '}'
+#490 ')'
+#492 '}'
+#492 ';'
+#492 '}'
+#492 ';'
+#492 CLASS
+#494 TYPEID D
+#495 INHERITS
+#497 TYPEID B
+#498 '{'
+#502 OBJECTID method7
+#502 '('
+#503 OBJECTID num
+#504 ':'
+#506 TYPEID Int
+#506 ')'
+#507 ':'
+#509 TYPEID Bool
+#510 '{'
+#514 '('
+#514 LET
+#516 OBJECTID x
+#517 ':'
+#519 TYPEID Int
+#520 ASSIGN
+#522 OBJECTID num
+#523 IN
+#525 IF
+#527 OBJECTID x
+#528 '<'
+#530 INT_CONST 0
+#531 THEN
+#533 OBJECTID method7
+#533 '('
+#533 '~'
+#534 OBJECTID x
+#534 ')'
+#535 ELSE
+#537 IF
+#539 INT_CONST 0
+#540 '='
+#542 OBJECTID x
+#543 THEN
+#544 BOOL_CONST true
+#545 ELSE
+#547 IF
+#549 INT_CONST 1
+#550 '='
+#552 OBJECTID x
+#553 THEN
+#554 BOOL_CONST false
+#555 ELSE
+#557 IF
+#559 INT_CONST 2
+#560 '='
+#562 OBJECTID x
+#563 THEN
+#564 BOOL_CONST false
+#565 ELSE
+#568 OBJECTID method7
+#568 '('
+#569 OBJECTID x
+#570 '-'
+#572 INT_CONST 3
+#572 ')'
+#574 FI
+#575 FI
+#576 FI
+#577 FI
+#579 ')'
+#581 '}'
+#581 ';'
+#581 '}'
+#581 ';'
+#581 CLASS
+#583 TYPEID E
+#584 INHERITS
+#586 TYPEID D
+#587 '{'
+#591 OBJECTID method6
+#591 '('
+#592 OBJECTID num
+#593 ':'
+#595 TYPEID Int
+#595 ')'
+#596 ':'
+#598 TYPEID A
+#599 '{'
+#603 '('
+#603 LET
+#605 OBJECTID x
+#606 ':'
+#608 TYPEID Int
+#609 IN
+#611 '{'
+#614 OBJECTID x
+#615 ASSIGN
+#617 OBJECTID num
+#618 '/'
+#620 INT_CONST 8
+#620 ';'
+#622 '('
+#622 NEW
+#624 TYPEID A
+#624 ')'
+#624 '.'
+#625 OBJECTID set_var
+#625 '('
+#626 OBJECTID x
+#626 ')'
+#626 ';'
+#628 '}'
+#630 ')'
+#632 '}'
+#632 ';'
+#632 '}'
+#632 ';'
+#646 CLASS
+#648 TYPEID A2I
+#649 '{'
+#653 OBJECTID c2i
+#653 '('
+#654 OBJECTID char
+#655 ':'
+#657 TYPEID String
+#657 ')'
+#658 ':'
+#660 TYPEID Int
+#661 '{'
+#663 IF
+#665 OBJECTID char
+#666 '='
+#667 ERROR "EOF in string constant"
+#667 ERROR "EOF in string constant"
+#667 ERROR "EOF in string constant"
+#668 STR_CONST ""
+#668 ';'
+#669 '}'
+#673 FI
+#674 FI
+#675 FI
+#676 FI
+#677 FI
+#678 FI
+#679 FI
+#680 FI
+#681 FI
+#682 FI
+#684 '}'
+#684 ';'
+#694 OBJECTID a2i
+#694 '('
+#695 OBJECTID s
+#696 ':'
+#698 TYPEID String
+#698 ')'
+#699 ':'
+#701 TYPEID Int
+#702 '{'
+#704 IF
+#706 OBJECTID s
+#706 '.'
+#707 OBJECTID length
+#707 '('
+#707 ')'
+#708 '='
+#710 INT_CONST 0
+#711 THEN
+#713 INT_CONST 0
+#714 ELSE
+#716 IF
+#718 OBJECTID s
+#718 '.'
+#719 OBJECTID substr
+#719 '('
+#720 INT_CONST 0
+#720 ','
+#721 INT_CONST 1
+#721 ')'
+#722 '='
+#723 ERROR "EOF in string constant"
+#724 STR_CONST ""
+#725 ELSE
+#727 '('
+#727 LET
+#729 OBJECTID next
+#730 ':'
+#732 TYPEID Int
+#733 ASSIGN
+#735 OBJECTID i
+#736 '/'
+#738 INT_CONST 10
+#739 IN
+#742 OBJECTID i2a_aux
+#742 '('
+#743 OBJECTID next
+#743 ')'
+#743 '.'
+#744 OBJECTID concat
+#744 '('
+#745 OBJECTID i2c
+#745 '('
+#746 OBJECTID i
+#747 '-'
+#749 OBJECTID next
+#750 '*'
+#752 INT_CONST 10
+#752 ')'
+#752 ')'
+#754 ')'
+#756 FI
+#758 '}'
+#758 ';'
+#758 '}'
+#758 ';'
+#758 CLASS
+#760 TYPEID Main
+#761 INHERITS
+#763 TYPEID IO
+#764 '{'
+#768 OBJECTID char
+#769 ':'
+#771 TYPEID String
+#771 ';'
+#774 OBJECTID avar
+#775 ':'
+#777 TYPEID A
+#777 ';'
+#780 OBJECTID a_var
+#781 ':'
+#783 TYPEID A
+#783 ';'
+#786 OBJECTID flag
+#787 ':'
+#789 TYPEID Bool
+#790 ASSIGN
+#791 BOOL_CONST true
+#791 ';'
+#796 OBJECTID menu
+#796 '('
+#796 ')'
+#797 ':'
+#799 TYPEID String
+#800 '{'
+#802 '{'
+#805 OBJECTID out_string
+#805 '('
+#805 ERROR "EOF in string constant"
+#805 ':'
+#806 ERROR "\\"
+#807 OBJECTID n
+#807 ERROR "EOF in string constant"
+#807 ERROR "EOF in string constant"
+#807 ':'
+#808 ERROR "\\"
+#809 OBJECTID n
+#809 ERROR "EOF in string constant"
+#809 ':'
+#810 ERROR "\\"
+#811 OBJECTID n
+#811 ERROR "EOF in string constant"
+#811 ':'
+#812 ERROR "\\"
+#813 OBJECTID n
+#813 ERROR "EOF in string constant"
+#813 ERROR "EOF in string constant"
+#813 ':'
+#814 ERROR "\\"
+#815 OBJECTID n
+#815 ERROR "EOF in string constant"
+#815 ERROR "EOF in string constant"
+#815 ':'
+#816 ERROR "\\"
+#817 OBJECTID n
+#817 ERROR "EOF in string constant"
+#817 ':'
+#818 ERROR "\\"
+#819 OBJECTID n
+#819 ERROR "EOF in string constant"
+#819 ERROR "EOF in string constant"
+#819 ':'
+#820 ERROR "\\"
+#821 OBJECTID n
+#823 STR_CONST ");\n\t out_string("
+#824 ERROR "\\"
+#825 OBJECTID tTo
+#827 OBJECTID get
+#829 OBJECTID a
+#830 NEW
+#832 OBJECTID number
+#832 '.'
+#832 '.'
+#832 '.'
+#833 OBJECTID enter
+#835 OBJECTID j
+#835 ':'
+#836 ERROR "\\"
+#837 OBJECTID n
+#839 STR_CONST ");\n\t out_string("
+#840 ERROR "\\"
+#841 OBJECTID tTo
+#843 OBJECTID quit
+#843 '.'
+#843 '.'
+#843 '.'
+#844 OBJECTID enter
+#846 OBJECTID q
+#846 ':'
+#847 ERROR "\\"
+#848 OBJECTID n
+#849 ERROR "\\"
+#850 OBJECTID n
+#850 ERROR "EOF in string constant"
+#850 ERROR "EOF in string constant"
+#878 STR_CONST ");\n         in_string();\n      }\n   };\n\n   get_int() : Int {\n      {\n\t (let z : A2I <- new A2I in\n\t    (let s : String <- prompt() in\n\t       z.a2i(s)\n\t    )\n         );\n      }\n   };\n\n   is_even(num : Int) : Bool {\n      (let x : Int <- num in\n            if x < 0 then is_even(~x) else\n            if 0 = x then true else\n\t    if 1 = x then false else\n\t          is_even(x - 2)\n\t    fi fi fi\n      )\n   };\n\n   class_type(var : A) : SELF_TYPE {\n      case var of\n\t a : A => out_string("
+#879 TYPEID Class
+#881 OBJECTID type
+#883 OBJECTID is
+#885 OBJECTID now
+#887 TYPEID A
+#888 ERROR "\\"
+#889 OBJECTID n
+#889 ERROR "EOF in string constant"
+#890 TYPEID B
+#891 ERROR "\\"
+#892 OBJECTID n
+#892 ERROR "EOF in string constant"
+#893 TYPEID C
+#894 ERROR "\\"
+#895 OBJECTID n
+#895 ERROR "EOF in string constant"
+#896 TYPEID D
+#897 ERROR "\\"
+#898 OBJECTID n
+#898 ERROR "EOF in string constant"
+#899 TYPEID E
+#900 ERROR "\\"
+#901 OBJECTID n
+#903 STR_CONST ");\n\t o : Object => out_string("
+#904 TYPEID Oooops
+#905 ERROR "\\"
+#906 OBJECTID n
+#915 STR_CONST ");\n      esac\n   };\n \n   print(var : A) : SELF_TYPE {\n     (let z : A2I <- new A2I in\n\t{\n\t   out_string(z.i2a(var.value()));\n\t   out_string("
+#928 STR_CONST ");\n\t}\n     )\n   };\n\n   main() : Object {\n      {\n         avar <- (new A);\n         while flag loop\n            {\n\t       -- avar <- (new A).set_var(get_int());\n\t       out_string("
+#929 OBJECTID number
+#934 STR_CONST ");\n\t       print(avar);\n\t       if is_even(avar.value()) then\n\t          out_string("
+#935 OBJECTID is
+#937 OBJECTID even
+#938 ERROR "!"
+#939 ERROR "\\"
+#940 OBJECTID n
+#940 ERROR "EOF in string constant"
+#941 ERROR "!"
+#942 ERROR "\\"
+#943 OBJECTID n
+#943 ERROR "EOF in string constant"
+#948 STR_CONST ");\n\t\t                  abort(); 0;\n\t\t               };\n                     esac else\n                  if char = "
+#949 OBJECTID c
+#955 STR_CONST " then -- diff\n                     {\n                        a_var <- (new A).set_var(get_int());\n\t                avar <- (new D).method4(avar.value(), a_var.value());\n\t             } else\n                  if char = "
+#956 OBJECTID d
+#959 STR_CONST " then avar <- (new C)@A.method5(avar.value()) else\n\t\t          -- factorial\n                  if char = "
+#960 OBJECTID e
+#963 STR_CONST " then avar <- (new C)@B.method5(avar.value()) else\n\t\t\t  -- square\n                  if char = "
+#964 OBJECTID f
+#967 STR_CONST " then avar <- (new C)@C.method5(avar.value()) else\n\t\t\t  -- cube\n                  if char = "
+#968 OBJECTID g
+#973 STR_CONST " then -- multiple of 3?\n\t\t      if ((new D).method7(avar.value()))\n\t\t                       then -- avar <- (new A).method1(avar.value())\n\t\t\t {\n\t                    out_string("
+#974 OBJECTID number
+#975 ERROR "EOF in string constant"
+#975 ERROR "EOF in string constant"
+#975 ERROR "EOF in string constant"
+#975 ERROR "EOF in string constant"
+#978 STR_CONST ");\n\t\t\t          print(x);\n\t\t\t          out_string("
+#979 OBJECTID times
+#981 INT_CONST 8
+#983 OBJECTID with
+#985 OBJECTID a
+#987 OBJECTID remainder
+#988 OF
+#994 STR_CONST ");\n\t\t\t\t  (let a : A2I <- new A2I in\n\t\t\t\t     {\n\t\t\t                out_string(a.i2a(r));\n\t\t\t                out_string("
+#995 ERROR "\\"
+#996 OBJECTID n
+#1006 STR_CONST ");\n\t\t\t\t     }\n\t\t\t\t  ); -- end let a:\n\t\t\t       }\n                            ); -- end let r:\n\t\t\t    avar <- x;\n\t\t         } \n\t\t      )  -- end let x:\n\t\t      else\n                  if char = "
+#1007 OBJECTID j
+#1007 ERROR "Unterminated string constant"

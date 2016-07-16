@@ -1,0 +1,5 @@
+./methodnameclash.test:1: Undeclared identifier x.
+./methodnameclash.test:1: Object is not a subtype of Int.
+./methodnameclash.test:1: Undeclared identifier y.
+./methodnameclash.test:1: Object is not a subtype of String.
+Compilation halted due to static semantic errors.

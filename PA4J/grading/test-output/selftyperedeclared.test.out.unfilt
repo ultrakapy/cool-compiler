@@ -1,0 +1,36 @@
+#1
+_program
+  #1
+  _class
+    Main
+    Object
+    "./selftyperedeclared.test"
+    (
+    #1
+    _method
+      main
+      Int
+      #1
+      _int
+        0
+      : Int
+    )
+  #1
+  _class
+    SELF_TYPE
+    Object
+    "./selftyperedeclared.test"
+    (
+    #1
+    _method
+      foo
+      #1
+      _formal
+        x
+        Object
+      Object
+      #1
+      _object
+        x
+      : _no_type
+    )

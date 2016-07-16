@@ -1,0 +1,24 @@
+6,20c6,12
+< 1
+< 2
+< 3
+< 4
+< 5
+< 6
+< 7
+< 8
+< 9
+< 10
+< 11
+< 12
+< 13
+< 14
+< COOL program successfully executed
+---
+> spim: (parser) syntax error on line 449 of file eval-order-arith.cl.s
+> 	  move	$a0 value
+> 	           ^
+> The following symbols are undefined:
+> Main.main
+> Instruction references undefined symbol at 0x00400038
+> [0x00400038]	0x0c000000  jal 0x00000000 [Main.main]      ; 373: jal	Main.main		# Invoke main method

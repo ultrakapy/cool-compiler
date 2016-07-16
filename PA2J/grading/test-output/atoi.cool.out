@@ -1,0 +1,100 @@
+CLASS
+TYPEID A2I
+'{'
+OBJECTID c2i
+'('
+OBJECTID char
+':'
+TYPEID String
+')'
+':'
+TYPEID Int
+'{'
+IF
+OBJECTID char
+'='
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+STR_CONST ""
+';'
+'}'
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+'}'
+';'
+OBJECTID a2i
+'('
+OBJECTID s
+':'
+TYPEID String
+')'
+':'
+TYPEID Int
+'{'
+IF
+OBJECTID s
+'.'
+OBJECTID length
+'('
+')'
+'='
+INT_CONST 0
+THEN
+INT_CONST 0
+ELSE
+IF
+OBJECTID s
+'.'
+OBJECTID substr
+'('
+INT_CONST 0
+','
+INT_CONST 1
+')'
+'='
+LONGERROR
+LONGERROR
+STR_CONST ""
+ELSE
+'('
+LET
+OBJECTID next
+':'
+TYPEID Int
+ASSIGN
+OBJECTID i
+'/'
+INT_CONST 10
+IN
+OBJECTID i2a_aux
+'('
+OBJECTID next
+')'
+'.'
+OBJECTID concat
+'('
+OBJECTID i2c
+'('
+OBJECTID i
+'-'
+OBJECTID next
+'*'
+INT_CONST 10
+')'
+')'
+')'
+FI
+'}'
+';'
+'}'
+';'

@@ -1,0 +1,4 @@
+./overridingmethod2.test:1: Undeclared identifier a.
+./overridingmethod2.test:1: Undeclared identifier a.
+./overridingmethod2.test:1: Error: e1 should be an Int
+Compilation halted due to static semantic errors.

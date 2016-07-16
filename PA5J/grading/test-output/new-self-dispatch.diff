@@ -1,0 +1,7 @@
+6,7c6,8
+< derived
+< COOL program successfully executed
+---
+> Exception occurred at PC=0x1001050c
+>   Bad address in text read: 0x1001050c
+>   Exception 6  [Bad address in text read]  Execution aborted

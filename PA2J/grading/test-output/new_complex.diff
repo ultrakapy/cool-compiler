@@ -1,0 +1,131 @@
+155,281c155,156
+< STR_CONST "+"
+< ')'
+< '.'
+< OBJECTID out_int
+< '('
+< OBJECTID y
+< ')'
+< '.'
+< OBJECTID out_string
+< '('
+< STR_CONST "I"
+< ')'
+< FI
+< '}'
+< ';'
+< OBJECTID reflect_0
+< '('
+< ')'
+< ':'
+< TYPEID Complex
+< '{'
+< '{'
+< OBJECTID x
+< '='
+< '~'
+< OBJECTID x
+< ';'
+< OBJECTID y
+< '='
+< '~'
+< OBJECTID y
+< ';'
+< OBJECTID self
+< ';'
+< '}'
+< '}'
+< ';'
+< OBJECTID reflect_X
+< '('
+< ')'
+< ':'
+< TYPEID Complex
+< '{'
+< '{'
+< OBJECTID y
+< '='
+< '~'
+< OBJECTID y
+< ';'
+< OBJECTID self
+< ';'
+< '}'
+< '}'
+< ';'
+< OBJECTID reflect_Y
+< '('
+< ')'
+< ':'
+< TYPEID Complex
+< '{'
+< '{'
+< OBJECTID x
+< '='
+< '~'
+< OBJECTID x
+< ';'
+< OBJECTID self
+< ';'
+< '}'
+< '}'
+< ';'
+< OBJECTID equal
+< '('
+< OBJECTID d
+< ':'
+< TYPEID Complex
+< ')'
+< ':'
+< TYPEID Bool
+< '{'
+< IF
+< OBJECTID x
+< '='
+< OBJECTID d
+< '.'
+< OBJECTID x_value
+< '('
+< ')'
+< THEN
+< IF
+< OBJECTID y
+< '='
+< OBJECTID d
+< '.'
+< OBJECTID y_value
+< '('
+< ')'
+< THEN
+< BOOL_CONST true
+< ELSE
+< BOOL_CONST false
+< FI
+< ELSE
+< BOOL_CONST false
+< FI
+< '}'
+< ';'
+< OBJECTID x_value
+< '('
+< ')'
+< ':'
+< TYPEID Int
+< '{'
+< OBJECTID x
+< '}'
+< ';'
+< OBJECTID y_value
+< '('
+< ')'
+< ':'
+< TYPEID Int
+< '{'
+< OBJECTID y
+< '}'
+< ';'
+< '}'
+< ';'
+---
+> LONGERROR
+> LONGERROR

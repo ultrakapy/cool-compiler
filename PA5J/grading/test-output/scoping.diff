@@ -1,0 +1,10 @@
+6,9c6,9
+< z = 23
+< z = 29
+< z = 33
+< COOL program successfully executed
+---
+> z = 0
+> Exception occurred at PC=0x0040140c
+>   Unaligned address in inst/data fetch: 0x0000000e
+>   Exception 4  [Unaligned address in inst/data fetch]  Execution aborted

@@ -1,0 +1,24 @@
+
+_program
+
+  _class
+    Main
+    Object
+    filename
+    (
+
+    _method
+      main
+      Int
+
+      _int
+        0
+      : _no_type
+    )
+
+  _class
+    Int
+    Object
+    filename
+    (
+    )

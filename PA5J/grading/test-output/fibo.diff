@@ -1,0 +1,5 @@
+6c6,7
+< 610COOL program successfully executed
+---
+> Can't expand stack segment by 8 bytes to 524288 bytes
+> Use -lstack # with # > 524288

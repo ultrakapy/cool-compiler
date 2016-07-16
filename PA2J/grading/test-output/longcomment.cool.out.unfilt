@@ -1,0 +1,17 @@
+#name "./longcomment.cool"
+#1 TYPEID Comment
+#3 OBJECTID test
+#63 TYPEID Comment
+#65 OBJECTID test
+#130 '('
+#137 TYPEID Foo
+#139 OBJECTID bar
+#142 TYPEID Moo
+#144 OBJECTID bow
+#147 TYPEID JoJo
+#149 TYPEID JojOj
+#151 OBJECTID joJoj323
+#154 OBJECTID dfdj
+#157 OBJECTID fadsjfkldsafjklsd
+#157 ';'
+#160 OBJECTID dfdsajfk312

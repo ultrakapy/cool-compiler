@@ -1,0 +1,35 @@
+#3
+_program
+  #3
+  _class
+    Test
+    Object
+    "./baddispatch3.test"
+    (
+    #3
+    _method
+      test
+      #2
+      _formal
+        x
+        Int
+      String
+      #2
+      _dispatch
+        #2
+        _object
+          self
+        : _no_type
+        x
+        (
+        #2
+        _int
+          4
+        : _no_type
+        #2
+        _int
+          3
+        : _no_type
+        )
+      : _no_type
+    )

@@ -1,0 +1,6 @@
+LONGERROR
+LONGERROR
+STR_CONST "This is also not escaped \\\n"
+STR_CONST "This is, though \\\n"
+LONGERROR
+STR_CONST "It's fine to have this: \n in a string"

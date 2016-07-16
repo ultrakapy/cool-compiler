@@ -1,0 +1,5 @@
+java.lang.NullPointerException
+	at programc.typeCheck(cool-tree.java:476)
+	at programc.typeCheck(cool-tree.java:579)
+	at programc.semant(cool-tree.java:422)
+	at Semant.main(Semant.java:36)

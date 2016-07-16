@@ -1,0 +1,9 @@
+#name "./null_in_code.cl.cool"
+#3 OBJECTID null
+#5 OBJECTID character
+#7 OBJECTID is
+#9 OBJECTID here
+#10 DARROW
+#11 ERROR "\000"
+#11 ASSIGN
+#11 ERROR "Unmatched )"

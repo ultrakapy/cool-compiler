@@ -1,0 +1,47 @@
+#1
+_program
+  #1
+  _class
+    A
+    Object
+    "./overridingmethod.test"
+    (
+    #1
+    _method
+      foo
+      Int
+      #1
+      _int
+        6
+      : _no_type
+    )
+  #1
+  _class
+    B
+    A
+    "./overridingmethod.test"
+    (
+    #1
+    _method
+      foo
+      Int
+      #1
+      _int
+        7
+      : _no_type
+    )
+  #1
+  _class
+    Main
+    Object
+    "./overridingmethod.test"
+    (
+    #1
+    _method
+      main
+      Int
+      #1
+      _int
+        6
+      : _no_type
+    )

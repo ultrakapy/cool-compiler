@@ -1,0 +1,4 @@
+./stringtest.test:1: Dispatch to undefined method length
+./stringtest.test:1: Dispatch to undefined method substr
+./stringtest.test:1: Dispatch to undefined method concat
+Compilation halted due to static semantic errors.

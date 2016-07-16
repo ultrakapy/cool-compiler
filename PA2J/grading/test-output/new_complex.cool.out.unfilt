@@ -1,0 +1,157 @@
+#name "./new_complex.cool"
+#0 CLASS
+#2 TYPEID Main
+#3 INHERITS
+#5 TYPEID IO
+#6 '{'
+#9 OBJECTID main
+#9 '('
+#9 ')'
+#10 ':'
+#11 TYPEID SELF_TYPE
+#12 '{'
+#14 '('
+#14 LET
+#16 OBJECTID c
+#17 ':'
+#19 TYPEID Complex
+#20 ASSIGN
+#21 '('
+#21 NEW
+#23 TYPEID Complex
+#23 ')'
+#23 '.'
+#24 OBJECTID init
+#24 '('
+#25 INT_CONST 1
+#25 ','
+#27 INT_CONST 1
+#27 ')'
+#28 IN
+#30 '{'
+#35 IF
+#37 OBJECTID c
+#37 '.'
+#38 OBJECTID reflect_X
+#38 '('
+#38 ')'
+#39 '='
+#41 OBJECTID c
+#41 '.'
+#42 OBJECTID reflect_0
+#42 '('
+#42 ')'
+#44 THEN
+#46 OBJECTID out_string
+#46 '('
+#47 STR_CONST "=)\n"
+#47 ')'
+#49 ELSE
+#51 OBJECTID out_string
+#51 '('
+#52 STR_CONST "=(\n"
+#52 ')'
+#54 FI
+#54 ';'
+#59 IF
+#61 OBJECTID c
+#61 '.'
+#62 OBJECTID reflect_X
+#62 '('
+#62 ')'
+#62 '.'
+#63 OBJECTID reflect_Y
+#63 '('
+#63 ')'
+#63 '.'
+#64 OBJECTID equal
+#64 '('
+#65 OBJECTID c
+#65 '.'
+#66 OBJECTID reflect_0
+#66 '('
+#66 ')'
+#66 ')'
+#68 THEN
+#70 OBJECTID out_string
+#70 '('
+#71 STR_CONST "=)\n"
+#71 ')'
+#73 ELSE
+#75 OBJECTID out_string
+#75 '('
+#76 STR_CONST "=(\n"
+#76 ')'
+#78 FI
+#78 ';'
+#80 '}'
+#82 ')'
+#84 '}'
+#84 ';'
+#84 '}'
+#84 ';'
+#84 CLASS
+#86 TYPEID Complex
+#87 INHERITS
+#89 TYPEID IO
+#90 '{'
+#93 OBJECTID x
+#94 ':'
+#96 TYPEID Int
+#96 ';'
+#99 OBJECTID y
+#100 ':'
+#102 TYPEID Int
+#102 ';'
+#106 OBJECTID init
+#106 '('
+#107 OBJECTID a
+#108 ':'
+#110 TYPEID Int
+#110 ','
+#112 OBJECTID b
+#113 ':'
+#115 TYPEID Int
+#115 ')'
+#116 ':'
+#118 TYPEID Complex
+#119 '{'
+#121 '{'
+#124 OBJECTID x
+#125 '='
+#127 OBJECTID a
+#127 ';'
+#130 OBJECTID y
+#131 '='
+#133 OBJECTID b
+#133 ';'
+#135 OBJECTID self
+#135 ';'
+#137 '}'
+#139 '}'
+#139 ';'
+#143 OBJECTID print
+#143 '('
+#143 ')'
+#144 ':'
+#146 TYPEID Object
+#147 '{'
+#149 IF
+#151 OBJECTID y
+#152 '='
+#154 INT_CONST 0
+#156 THEN
+#158 OBJECTID out_int
+#158 '('
+#159 OBJECTID x
+#159 ')'
+#161 ELSE
+#163 OBJECTID out_int
+#163 '('
+#164 OBJECTID x
+#164 ')'
+#164 '.'
+#165 OBJECTID out_string
+#165 '('
+#165 ERROR "EOF in string constant"
+#165 ERROR "Unterminated string constant"

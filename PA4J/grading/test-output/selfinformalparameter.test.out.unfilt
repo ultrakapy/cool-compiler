@@ -1,0 +1,44 @@
+#1
+_program
+  #1
+  _class
+    Main
+    Object
+    "./selfinformalparameter.test"
+    (
+    #1
+    _method
+      main
+      Int
+      #1
+      _int
+        0
+      : Int
+    )
+  #1
+  _class
+    A
+    Object
+    "./selfinformalparameter.test"
+    (
+    #1
+    _attr
+      x
+      A
+      #1
+      _new
+        A
+      : A
+    #1
+    _method
+      foo
+      #1
+      _formal
+        self
+        String
+      String
+      #1
+      _string
+        "hoo-ah"
+      : String
+    )
